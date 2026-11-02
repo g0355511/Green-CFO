@@ -1,0 +1,1563 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Green CFO｜碳有價時代的企業財務</title><style>
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:#203b3b;background:#fffdf7;font-family:"Microsoft JhengHei",sans-serif;line-height:1.9}a{color:inherit;text-decoration:none}body{padding-top:90px}header{position:fixed;top:0;left:0;right:0;z-index:5;background:#fffef9ee;backdrop-filter:blur(12px);border-bottom:1px solid #dde6db;padding:18px 6%;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:900;font-size:22px;color:#236c58}header nav{display:flex;gap:24px;font-size:14px}.hero{padding:75px 8%;background:#edf4df;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center}.eyebrow{font-size:13px;letter-spacing:3px;color:#4b7862}.hero h1{font-size:clamp(32px,4vw,58px);line-height:1.4;margin:20px 0}.hero p{max-width:570px;color:#567064}.btn,button{display:inline-block;background:#24735b;color:white;padding:12px 24px;border-radius:30px;border:0;cursor:pointer;font:inherit}.art{border-radius:50% 45% 40% 55%;background:#d7e7b9;padding:50px;text-align:center;transform:rotate(-5deg)}.art strong{font-size:72px;color:#27735b;display:block}.art span{background:#fff9dc;border-radius:18px;padding:12px 20px;display:inline-block;transform:rotate(5deg)}.catalog{max-width:1200px;margin:55px auto;padding:0 24px}.catalog h2{font-size:30px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{border:1px solid #dce5d9;border-radius:20px;background:white;padding:24px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 10px 25px #264c3312}.card b{display:block;color:#80a363;font-size:30px}.card p{font-size:15px;line-height:1.6}.layout{max-width:1280px;margin:60px auto;display:grid;grid-template-columns:240px minmax(0,1fr);gap:45px;padding:0 24px}aside{position:sticky;top:90px;align-self:start;font-size:14px;max-height:calc(100dvh - 110px);overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding-right:10px}aside b{display:block;position:sticky;top:0;background:#fffdf7;padding:8px 0}aside a{display:block;padding:9px;border-bottom:1px solid #e5eadd}article{background:white;padding:35px;border:1px solid #e3e8dd;border-radius:24px;overflow-wrap:anywhere}article h1{font-size:30px}article h2{margin-top:70px;padding-top:20px;border-top:2px solid #dbe7c8;color:#26725a}article h3{color:#3d765d}article p{margin:18px 0}article img{max-width:100%;height:auto}table{display:block;overflow-x:auto;border-collapse:collapse;font-size:14px;margin:24px 0}th,td{padding:12px;border:1px solid #dbe4d9;min-width:100px}th{background:#edf4df}blockquote{margin:22px 0;padding:12px 22px;background:#f3f7e9;border-left:4px solid #9cb978}pre{overflow:auto}#progress{position:fixed;top:0;left:0;height:4px;background:#e5b85a;z-index:10}footer{text-align:center;padding:40px;color:#6e7e71}#tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap}button{font-size:13px;padding:7px 16px}@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr}.art{display:none}.layout{grid-template-columns:1fr}aside{position:static;max-height:45dvh;overflow-y:auto}article{padding:20px}header nav a:first-child{display:none}}@media(max-width:600px){body{padding-top:125px}header{flex-wrap:wrap}#tools{width:100%;justify-content:flex-end}html{scroll-padding-top:145px}header{padding:12px 16px;gap:12px}.brand{font-size:18px}header nav{gap:12px;font-size:13px}.hero{padding:40px 20px}.hero h1{font-size:34px}.catalog{margin:32px auto;padding:0 16px}.catalog h2{font-size:24px}.cards{grid-template-columns:1fr}.card{padding:18px}.layout{padding:0 12px;gap:20px;margin:30px auto}article{padding:16px;font-size:16px}article h1{font-size:25px}article h2{font-size:22px}aside{max-height:35dvh;border:1px solid #dce5d9;border-radius:14px;padding:12px}table{max-width:100%}article ul,article ol{padding-left:24px}}@media print{body{padding-top:0}header,.hero,.catalog,aside,footer,#tools{display:none}.layout{display:block}article{border:0;padding:0}h2{break-before:page}}
+.equation{display:block;overflow-x:auto;max-width:100%;padding:20px 12px;margin:20px 0;background:#f5f8ee;border-radius:12px;font-size:1.12em}.equation math{min-width:max-content;margin:0 auto}math{font-family:"Cambria Math","STIX Two Math",math;font-size:1.12em}.source-link{color:#176c64;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.source-note{font-size:.85em;color:#806124;background:#fff7df;padding:8px 12px;border-radius:8px}
+:root{--header-height:90px}html{scroll-padding-top:calc(var(--header-height) + 20px)}body{padding-top:var(--header-height)}header{gap:16px;padding:14px clamp(16px,4vw,64px);flex-wrap:wrap}.brand{flex-shrink:0}header nav{margin-left:auto}#tools{justify-content:flex-end;gap:8px}#status{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:13px}button{min-height:44px;min-width:44px}.hero>div,.layout>*,.card{min-width:0}.hero{padding:clamp(36px,6vw,75px) clamp(20px,6vw,90px)}.hero h1{font-size:clamp(30px,4.5vw,58px)}.eyebrow{overflow-wrap:anywhere}.layout{grid-template-columns:230px minmax(0,1fr);gap:clamp(20px,3vw,45px)}article{min-width:0;width:100%;font-size:clamp(16px,1.2vw,18px)}article h1{font-size:clamp(24px,3vw,30px)}article h2{font-size:clamp(22px,2.5vw,28px)}article h3{font-size:clamp(19px,2vw,23px)}article ul,article ol{padding-left:1.5em}article pre{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere}aside{top:calc(var(--header-height) + 16px);max-height:none;overflow:visible;padding:0;scrollbar-gutter:auto}summary{list-style:none;cursor:pointer;font-weight:bold;padding:12px 10px;border-bottom:1px solid #dce5d9}summary::-webkit-details-marker{display:none}summary span{display:none;font-size:12px;font-weight:normal}.toc-links{max-height:calc(100dvh - var(--header-height) - 90px);overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}.toc-links a{min-height:44px}.table-scroll{width:100%;max-width:100%;overflow-x:auto;margin:24px 0;border:1px solid #dbe4d9;border-radius:10px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}.table-scroll:focus-visible,summary:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid #c29127;outline-offset:3px}.table-scroll table{display:table;min-width:560px;width:100%;margin:0;overflow:visible;max-width:none}.table-scroll th,.table-scroll td{min-width:100px;padding:12px;vertical-align:top}.equation{max-width:100%;overscroll-behavior-x:contain}.inline-equation{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}footer{padding:30px 20px}
+@media(min-width:1025px){summary{cursor:default;pointer-events:none}}
+@media(max-width:1024px){html{scroll-padding-top:calc(var(--header-height) + 80px)}.layout{grid-template-columns:minmax(0,1fr);gap:20px}aside{position:sticky;top:var(--header-height);z-index:4;border:1px solid #dce5d9;border-radius:14px;background:#fffdf7;box-shadow:0 5px 18px #203b3b0a}summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px}summary span{display:inline}.toc-links{max-height:40dvh;padding:0 8px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}.art{display:none}article{padding:clamp(18px,3vw,32px)}header nav a:first-child{display:inline}}
+@media(max-width:640px){header{padding:10px 14px;gap:8px}.brand{font-size:18px}header nav{font-size:13px;gap:14px}#tools{width:100%;justify-content:space-between;flex-wrap:nowrap}#tools button{flex:0 0 auto;padding:6px 15px}#status{margin-left:auto}.cards{grid-template-columns:minmax(0,1fr)}.catalog{padding:0 16px;margin:32px auto}.catalog h2{font-size:25px}.layout{padding:0 12px;margin:32px auto}.hero h1{font-size:clamp(30px,8vw,42px)}.hero p{font-size:16px}.card{padding:18px}article{padding:18px 14px;border-radius:16px}article h2{margin-top:44px}blockquote{padding:12px 14px}.table-scroll th,.table-scroll td{padding:10px}.equation{padding:15px 10px}aside{max-height:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{body{padding-top:0}.table-scroll{overflow:visible}.table-scroll table{min-width:0}.toc-links{max-height:none}}
+
+.teaching-figure{margin:28px 0;padding:20px;background:#f4f8ef;border:1px solid #d5e2d1;border-radius:16px;max-width:100%;min-width:0}.teaching-figure figcaption{font-weight:700;font-size:16px;margin-top:18px;color:#245d4b}.teaching-figure .figure-note{font-size:14px;color:#53695f;line-height:1.75;margin:8px 0 0}.figure-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.figure-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.figure-card{padding:16px;background:white;border:1px solid #dce6d7;border-radius:12px;min-width:0}.figure-card span{font-size:14px;color:#53695f}.figure-card strong{display:block;color:#236b55;font-size:clamp(19px,2vw,24px);line-height:1.5;margin:8px 0}.figure-card p,.flow-step p{font-size:15px;line-height:1.75;margin:8px 0 0}.timeline{list-style:none!important;margin:0;padding:0!important;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.timeline li{display:flex;gap:14px;padding:16px;background:#fff;border-radius:12px;border-left:4px solid #63946a}.timeline b{color:#236b55;font-size:22px;flex-shrink:0}.timeline strong{font-size:16px;line-height:1.6}.timeline p{font-size:14px;line-height:1.7;margin:6px 0 0}.figure-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.flow-step{padding:18px 14px;background:white;border:1px solid #dce6d7;border-radius:12px;position:relative}.flow-step:not(:last-child):after{content:'→';position:absolute;right:-20px;top:35%;color:#47795a;font-size:20px}.flow-step strong{font-size:17px;color:#245d4b}.chart-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;background:white;border-radius:10px}.chart-scroll:focus-visible{outline:3px solid #c29127;outline-offset:3px}.chart-scroll svg{display:block;width:100%;min-width:620px;height:auto;font-family:'Microsoft JhengHei',sans-serif;font-size:18px;fill:#334e43}.iceberg{max-width:620px;margin:auto;text-align:center}.iceberg-visible{padding:22px;background:#e0efdc;border-radius:14px 14px 0 0}.iceberg-hidden{padding:26px 18px;background:#dceef0;border-radius:0 0 14px 14px}.iceberg span{display:block;font-size:14px;color:#49645c}.iceberg strong{display:block;font-size:21px;color:#245d4b;margin:8px 0}.iceberg p{font-size:16px;line-height:1.8;margin:8px 0 0}.waterline{padding:7px;background:#347f8b;color:white;font-size:14px;font-weight:bold}
+@media(max-width:700px){.teaching-figure{padding:14px}.figure-grid,.figure-grid.two,.figure-flow,.timeline{grid-template-columns:minmax(0,1fr)}.figure-flow{gap:24px}.flow-step:not(:last-child):after{content:'↓';left:calc(50% - 7px);right:auto;top:auto;bottom:-26px}.figure-card strong{font-size:22px}.timeline li{padding:12px}.iceberg strong{font-size:19px}}
+
+.internal-link{color:#176c64;text-decoration:underline;text-underline-offset:3px}.iceberg-picture{max-width:640px;margin:0 auto}.iceberg-picture svg{display:block;width:100%;height:auto;max-height:330px}.iceberg-label{padding:14px 18px;border-radius:12px;background:white;border:1px solid #d6e4e0}.iceberg-label strong{display:block;font-size:18px;color:#245d4b}.iceberg-label p{font-size:15px;line-height:1.75;margin:6px 0 0}.iceberg-label.below{background:#eaf4f6}.iceberg-label.above{background:#f9fcfd}@media(max-width:640px){.iceberg-label{padding:12px}.iceberg-label strong{font-size:17px}.iceberg-picture svg{max-height:240px}}
+</style><div id="progress"></div><header><a class="brand" href="#">Green CFO <small>學習室</small></a><nav><a href="#courses">課程地圖</a><a href="#reading">閱讀教材</a></nav><div id="tools"><button onclick="changeSize(1)">字體 ＋</button><button onclick="changeSize(-1)">字體 −</button><span id="status">閱讀進度 0%</span></div></header><section class="hero"><div><span class="eyebrow">SUSTAINABLE FINANCE · 開始你的綠色財務旅程</span><h1>讓碳的成本，<br>成為財務決策的起點。</h1><p>從碳定價、碳會計到投資與融資，循序掌握永續財務長的決策視野。</p><a class="btn" href="#reading">開始學習 →</a></div><div class="art"><span>CO₂ × 財務決策</span><strong>Green<br>CFO</strong><span>把永續，寫進企業價值。</span></div></section><section class="catalog" id="courses"><span class="eyebrow">YOUR LEARNING PATH</span><h2>七個章節，一條完整的決策路徑</h2><div class="cards"><a class="card" href="#toc-heading-2"><b>01</b><p>第一章　導論：為什麼碳成為財務議題？</p><small>進入章節 ↗</small></a><a class="card" href="#toc-heading-3"><b>02</b><p>第二章　碳會計基礎：ISO 14064-1 與 ISO 14067</p><small>進入章節 ↗</small></a><a class="card" href="#toc-heading-4"><b>03</b><p>第三章　碳成本與企業投資決策</p><small>進入章節 ↗</small></a><a class="card" href="#toc-heading-5"><b>04</b><p>第四章　綠色融資：永續連結貸款與綠色債券</p><small>進入章節 ↗</small></a><a class="card" href="#toc-heading-6"><b>05</b><p>第五章　氣候風險與企業評價</p><small>進入章節 ↗</small></a><a class="card" href="#toc-heading-7"><b>06</b><p>第六章　永續財務長：把碳資料用在企業決策</p><small>進入章節 ↗</small></a><a class="card" href="#toc-heading-8"><b>07</b><p>第七章　綜合應用：從排放資料到投資決定</p><small>進入章節 ↗</small></a></div></section><div class="layout" id="reading"><aside><details id="toc-panel" open><summary>教材目錄 <span>展開／收合</span></summary><div class="toc-links"><a href="#toc-heading-1">如何使用本教材</a><a href="#toc-heading-2">第一章　導論：為什麼碳成為財務議題？</a><a href="#toc-heading-3">第二章　碳會計基礎：ISO 14064-1 與 ISO 14067</a><a href="#toc-heading-4">第三章　碳成本與企業投資決策</a><a href="#toc-heading-5">第四章　綠色融資：永續連結貸款與綠色債券</a><a href="#toc-heading-6">第五章　氣候風險與企業評價</a><a href="#toc-heading-7">第六章　永續財務長：把碳資料用在企業決策</a><a href="#toc-heading-8">第七章　綜合應用：從排放資料到投資決定</a><a href="#toc-heading-9">附錄 A　關鍵術語</a><a href="#toc-heading-10">附錄 B　計算練習核對答案</a><a href="#toc-heading-11">附錄 C　參考資料</a><a href="#toc-heading-12">附錄 D　學習評量參考</a><a href="#appendix-e">附錄 E　法規與研究延伸閱讀</a></div></details></aside><article><h1 id="green-cfo">碳有價時代的企業財務：從碳定價到 Green CFO</h1>
+<h2 id="toc-heading-0">——碳費、CBAM、碳會計與企業財務決策的整合分析</h2>
+<hr />
+<p>作者：黃柏凱 (運用人工智慧工具彙整)
+適用對象： 無財務基礎的初學者／高中升大學學生／大學入門課程</p>
+<h2 id="toc-heading-1">如何使用本教材</h2>
+<h3 id="section-1">這本教材會帶你學什麼？</h3>
+<p>本教材從一個問題開始：當排放溫室氣體需要付錢時，企業應如何做決定？你將依序學習排放量怎麼計算、碳成本怎麼影響投資，以及企業如何籌錢與評估風險。</p>
+<p>你可以從零開始。先讀每節的例子，了解企業遇到什麼問題，再看名詞與計算。遇到公式時，先看它要算什麼，再依步驟代入數字。</p>
+<p>先認識三個常用詞：<strong>投資</strong>是現在花錢，希望未來得到回報；<strong>融資</strong>是取得經營或投資所需的資金，例如向銀行借款；<strong>估值</strong>是估算一項設備、投資案或企業值多少錢。</p>
+<h3 id="section-2">七章怎麼讀？</h3>
+<p>七章依照企業做決定的順序安排：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>序</th>
+<th>章節</th>
+<th>回答的問題</th>
+<th>決策鏈位置</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>第一章</strong></td>
+<td>碳為何成為財務議題？</td>
+<td><strong>為什麼要關心？</strong></td>
+<td>動機與背景</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>第二章</strong></td>
+<td>碳如何被量化和報告？</td>
+<td><strong>怎麼量？</strong></td>
+<td>數據基礎</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>第三章</strong></td>
+<td>碳成本如何影響投資方案？</td>
+<td><strong>該不該投？</strong></td>
+<td>資本預算決策</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>第四章</strong></td>
+<td>綠色融資工具如何運作？</td>
+<td><strong>錢從哪來？</strong></td>
+<td>融資決策</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>第五章</strong></td>
+<td>氣候風險如何影響企業價值？</td>
+<td><strong>值多少錢？</strong></td>
+<td>估值與評價</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>第六章</strong></td>
+<td>Green CFO 扮演什麼角色？</td>
+<td><strong>誰來做？怎麼做？</strong></td>
+<td>策略與職涯</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>第七章</strong></td>
+<td>如何把前面學過的內容一起運用？</td>
+<td><strong>怎麼做決定？</strong></td>
+<td>綜合案例與練習</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>學習節奏建議</strong>：第一、二章先認識制度與排放資料；第三、四章學習投資與籌資；第五、六章討論企業價值與財務長的工作；第七章整合全書。第一次閱讀時，可先掌握各章的核心問題，再回頭練習公式。</p>
+</blockquote>
+<h3 id="section-3">開始前的三個提醒</h3>
+<ol>
+<li><strong>以財務影響為學習主軸</strong>：本教材從企業財務決策的角度介紹碳議題。涉及溫室效應、碳循環等概念時，會著重說明它們如何影響企業的成本、收入與風險。</li>
+<li><strong>學會找資料、看懂資料</strong>：碳費費率、碳價格、排放係數等數據會持續更新。教材訓練的是「如何找到並解讀數據」的能力，而非記憶特定數值。</li>
+<li><strong>把不同觀點連起來</strong>：你會接觸財務、法律、會計與公共政策。先理解各領域在回答什麼問題，再把它們連起來，就能逐步掌握企業的決策方式。</li>
+</ol>
+<hr />
+<h2 id="toc-heading-2">第一章　導論：為什麼碳成為財務議題？</h2>
+<p>排放溫室氣體，可能讓企業增加支出、改變產品價格，也可能影響投資選擇。本章先介紹碳定價，幫助你理解企業為什麼需要把「碳」納入財務計算。</p>
+<h3 id="section-5">1.1 學習目標</h3>
+<p>完成本章後，你可以：</p>
+<ol>
+<li>說明排放為什麼可能成為企業支出。</li>
+<li>分辨碳稅、碳費與排放交易。</li>
+<li>看懂臺灣碳費與歐盟 CBAM 的基本適用條件。</li>
+<li>說明碳成本如何連到投資、借款與企業價值。</li>
+</ol>
+<h3 id="section-6">1.2 核心問題與引導</h3>
+<p>碳成本會影響企業平常的支出，也會影響客戶要求與投資選擇。計算前，先分清楚三件事：</p>
+<ul>
+<li><strong>總排放量</strong>：在指定範圍內，共排放多少溫室氣體。</li>
+<li><strong>適用排放量</strong>：依該制度規定，哪些排放要納入計算。</li>
+<li><strong>實際碳價</strong>：每單位排放要付多少錢，以及有哪些扣除或調整。</li>
+</ul>
+<p><strong>碳定價</strong>就是透過稅費或排放配額等制度，讓排放者承擔碳成本。文中的「碳」通常指溫室氣體；不同氣體會依暖化影響換算成「二氧化碳當量」（CO₂e），方便用同一單位比較。本教材的排放量以公噸二氧化碳當量表示；下文的「噸」均指公噸，產品重量則另行標示。</p>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing">世界銀行 2026 年報摘要</a>指出，直接碳定價涵蓋全球接近 30% 的溫室氣體排放，2025 年相關公共收入超過 1,070 億美元。</p>
+<h3 id="section-7">1.3 碳定價有哪些方式？</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>工具</th>
+<th>主要機制</th>
+<th>財務分析重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>碳稅</td>
+<td>政府依法對特定排放或燃料課稅</td>
+<td>對什麼課稅、稅率多少、有哪些減免</td>
+</tr>
+<tr>
+<td>臺灣碳費</td>
+<td>依臺灣法規，向符合徵收條件的排放源收費</td>
+<td>有多少排放要計費、適用何種費率與扣除條件</td>
+</tr>
+<tr>
+<td>排放交易（ETS）</td>
+<td>政府設定排放總量，企業取得或買賣排放配額</td>
+<td>需要多少配額、可免費取得多少、購買價格多少</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>碳稅與碳費的區分，須綜合各地法律依據、課徵方式與收入用途判斷。</strong> 收入用途取決於各地法律。臺灣碳費收入依法進入溫室氣體管理基金；碳稅也可能指定用於減碳。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.env.go.jp/en/policy/tax/env-tax.html">日本環境省</a>即說明其氣候變遷對策稅與能源減碳措施的關聯。</p>
+<p>企業可以依序問：要付多少錢？政府有哪些配套措施？能否調整產品價格？花錢減排後，能省下多少成本？</p>
+<h3 id="section-8">1.4 臺灣碳費制度：適用範圍與計算</h3>
+<p>本節介紹臺灣的碳費制度，其徵收對象、費率與計算方式依臺灣法規規定。各國則依自身制度，採用碳稅、碳費或排放交易等方式，讓排放者承擔碳成本。</p>
+<p><strong>先看時間：</strong> 臺灣碳費費率自 2025 年 1 月 1 日生效，2025 年的適用排放量開始計費，2026 年首次申報繳納。也就是「先計算一整年的排放，隔年再繳費」。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cca.gov.tw/affairs/carbon-fee-fund/2301.html">氣候變遷署碳費專區</a></p>
+<p><strong>哪些工廠需要繳費？</strong> 先看它是否屬於依法要盤點、登錄並查驗排放量的電力、燃氣供應業或製造業排放源。再把全廠（場）的「直接排放」與「使用電力造成的間接排放」加總；每年達 25,000 公噸 CO₂e，是徵收條件之一。</p>
+<p><strong>每公噸收多少？</strong> 一般費率為新臺幣 300 元。企業提出自主減量計畫，經核定並符合條件後，可適用優惠費率 A 每公噸 50 元或 B 每公噸 100 元。實際要計費的排放量，還要依規定處理扣除與調整。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020139">碳費收費辦法第 2、3 條</a>；<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cca.gov.tw/affairs/carbon-fee-fund/2301.html">費率及優惠條件</a></p>
+<p><strong>一般情況的計算示例：</strong> 某工廠已納入碳費徵收，且未經認定為高碳洩漏風險事業。假設沒有其他扣除或調整，適用年排放量為 50,000 公噸，扣除 25,000 公噸後，以剩餘的 25,000 公噸計費。若採每公噸 300 元的一般費率：</p>
+<ul>
+<li>收費排放量＝50,000 − 25,000＝<strong>25,000 公噸</strong>。</li>
+<li>年度碳費＝25,000 × 300＝<strong>750 萬元</strong>。</li>
+</ul>
+<p><strong>練習 1-1：</strong> 沿用上述條件，若適用年排放量減少 10%，降至 45,000 公噸，年度碳費變成多少？每年省下多少？答案見附錄 B。</p>
+<p>上述 25,000 公噸扣除額，適用於本例未經認定為高碳洩漏風險事業的條件。高碳洩漏風險事業、電力相關排放扣除與減量額度的使用，各有計算規定，實際申報時須依個別條件處理。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020139">碳費收費辦法第 5 至 10 條</a></p>
+<p><strong>什麼是碳洩漏？</strong> 如果各地碳成本不同，企業可能把生產移到碳管制較寬鬆的地方，讓排放跟著轉移，這就是「碳洩漏」。臺灣對經審查認定、符合條件的高碳洩漏風險事業，另設排放量調整方式，以兼顧減碳與產業競爭。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cca.gov.tw/affairs/carbon-fee-fund/2301.html">氣候變遷署碳費專區</a></p>
+<p>2026 年 9 月修正，說明新納入制度的事業何時開始申報繳費，也處理舊制度取得的減量額度如何銜接使用。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://enews.moenv.gov.tw/moenv-news/zh-tw/News/14034">2026 年 9 月修正發布說明</a></p>
+<p><strong>境外減量額度是什麼？</strong> 可以把它理解為：依相關規則確認的境外減排成果，記成一定數量的額度。企業要用這些額度扣抵臺灣碳費，須先確認主管機關是否認可、自己是否符合使用資格，以及最多可用多少。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020139">碳費收費辦法第 10 條</a></p>
+<p>碳費對成本的影響因企業而異。評估時，要一起看適用排放量、費率、生產規模與減量措施。例如，同樣支付 750 萬元碳費，對年營收不同的企業，負擔程度也會不同。</p>
+<h3 id="section-9">1.5 歐盟碳邊境調整機制</h3>
+<p>碳邊境調整機制（CBAM）是歐盟針對特定進口貨品設計的碳定價制度。它的重點是讓進口貨品承擔與歐盟規則相應的碳成本。</p>
+<p><strong>先看時間：</strong> 2023 年 10 月至 2025 年底是過渡期。正式制度從 2026 年 1 月開始適用，該年進口的納管貨品開始涉及正式制度的碳成本。</p>
+<p>進口發生的時間，與購買、繳交憑證的時間各有安排。憑證可理解為依制度購買、用來履行碳成本義務的工具。2027 年 2 月開始銷售憑證；針對 2026 年進口的首次年度申報與繳交，期限為 2027 年 9 月 30 日。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://taxation-customs.ec.europa.eu/news/first-cbam-certificate-price-be-published-7-april-2026-03-06_en?prefLang=el">購證時程</a></p>
+<p><strong>哪些貨品適用？</strong> 歐盟用「CN 貨品代碼」分類貨品，類似每類商品的分類編號。CBAM 涉及水泥、鋼鐵、鋁、肥料、電力及氫等特定貨品，實際範圍要對照法規附件的代碼。</p>
+<p>因此，判斷下游產品或半導體產品是否適用時，要查產品代碼。部分貨品另有單一年度 50 噸的重量門檻；電力與氫則有不同規定。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en">歐盟 CBAM 專頁</a></p>
+<p>依法負責申報與繳交憑證的，主要是歐盟進口商或符合規定的間接報關代表。臺灣供應商則可能依合約分攤成本，或在價格談判中受到影響。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en">歐盟 CBAM 專頁</a></p>
+<p><strong>金額怎麼估？</strong> 先確認產品要計入哪些排放，再依規定調整。例如，歐盟生產者可免費取得的部分排放配額，會影響 CBAM 的調整計算；生產地已實際支付的碳價，也可能在符合條件時扣抵。</p>
+<p>所以，估算臺灣碳費與 CBAM 的合計負擔時，要把符合條件的扣抵一併算進去。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://customs-taxation.learning.europa.eu/pluginfile.php/70425/mod_resource/content/1/Webinar%20takeaways%20-%20CBAM%20has%20launched%20-%20What%20changes%20for%20me.pdf">歐盟官方計算說明</a></p>
+<h3 id="section-10">1.6 全球與臺灣重要時程</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>時間</th>
+<th>事件</th>
+<th>財務意義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021 年</td>
+<td>歐盟提出 CBAM 立法提案</td>
+<td>啟動立法討論與制度規劃</td>
+</tr>
+<tr>
+<td>2023 年</td>
+<td>CBAM 立法通過；10 月啟動過渡期；國際永續揭露準則 IFRS S1、S2 發布</td>
+<td>資料準備與揭露架構形成</td>
+</tr>
+<tr>
+<td>2024 年</td>
+<td>臺灣發布碳費相關子法及費率</td>
+<td>建立計費制度</td>
+</tr>
+<tr>
+<td>2025 年</td>
+<td>臺灣費率生效、排放開始計費</td>
+<td>需估列當年度適用義務</td>
+</tr>
+<tr>
+<td>2026 年</td>
+<td>臺灣首次繳納前年度碳費；CBAM 正式制度適用</td>
+<td>區分費用歸屬與現金支付時間</td>
+</tr>
+<tr>
+<td>2027 年</td>
+<td>CBAM 開始售證及首筆年度申報繳交</td>
+<td>準備憑證採購與資金安排</td>
+</tr>
+</tbody>
+</table></div>
+<figure class="teaching-figure" id="fig1-1"><ol class="timeline"><li><b>2021</b><div><strong>歐盟提出 CBAM 法案</strong><p>開始立法討論</p></div></li><li><b>2023</b><div><strong>CBAM 立法通過、過渡期開始</strong><p>國際永續揭露準則 S1、S2 發布</p></div></li><li><b>2024</b><div><strong>臺灣發布碳費規定與費率</strong><p>企業準備排放資料</p></div></li><li><b>2025</b><div><strong>臺灣適用排放開始計費</strong><p>費率自 1 月 1 日生效</p></div></li><li><b>2026</b><div><strong>臺灣首次繳費；CBAM 正式適用</strong><p>臺灣繳納前年度碳費</p></div></li><li><b>2027</b><div><strong>CBAM 開始售證與首次年度繳交</strong><p>2 月售證；9 月 30 日首次期限</p></div></li></ol><figcaption>圖 1-1　碳定價的重要時點</figcaption><p class="figure-note">依本節所列官方資料整理；發布、適用與付款是不同時點。</p></figure>
+<p>時間軸與表格對照使用，可以分清楚立法、開始適用與付款的時間。</p>
+<h3 id="section-11">1.7 研究發現：碳定價能減少排放嗎？</h3>
+<p>碳定價會提高排放的成本，因而可能鼓勵節能、改用低碳能源或更新設備。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s41467-024-48512-w">Döbbeling-Hildebrandt 等人（2024）</a>整理公共碳稅與排放交易的實施經驗，發現多項制度有助於減排。</p>
+<p>效果會受到制度設計與實施環境影響。例如，景氣、能源價格與其他政策也會改變排放，因此研究需要區分這些因素。企業可用過去的證據了解政策作用，再依自己的條件試算。<a class="internal-link" href="#e-public-pricing">研究範圍與限制</a></p>
+<h3 id="section-12">1.8 本章小結</h3>
+<p>排放溫室氣體會影響企業的支出，也可能改變投資與借款條件。財務部門因此需要了解碳成本與氣候風險。下一章先學習最基本的一步：怎麼知道企業排放了多少？</p>
+<hr />
+<h2 id="toc-heading-3">第二章　碳會計基礎：ISO 14064-1 與 ISO 14067</h2>
+<p>計算碳成本，先要知道排放量。本章介紹兩種常見標準：ISO 14064-1 協助盤點組織的排放，ISO 14067 協助計算產品的碳足跡。這些資料是後續投資與風險分析的基礎。</p>
+<h3 id="section-13">2.1 學習目標</h3>
+<p>完成本章後，你可以：</p>
+<ol>
+<li>分辨組織盤查與產品碳足跡各在計算什麼。</li>
+<li>用例子說明範疇一、二、三。</li>
+<li>說明範疇三資料為什麼較難取得，以及估算時應交代哪些資訊。</li>
+<li>看懂盤查範圍與基準年的用途。</li>
+</ol>
+<h3 id="iso-14064-1">2.2 組織層級盤查：ISO 14064-1</h3>
+<p><strong>什麼是 ISO 14064-1？</strong></p>
+<p><strong>碳盤查就是盤點排放。</strong> 例如，一家工廠要先找出哪些鍋爐、車輛或用電活動與它有關，再整理資料、計算排放量。</p>
+<p>ISO 是制定國際標準的組織。ISO 14064-1:2018 提供組織層級溫室氣體盤查與報告的原則及要求。它幫助企業回答：<strong>在這次選定的範圍內，公司產生多少排放？</strong></p>
+<p><strong>理解盤查工作的三個環節：</strong></p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>支柱</th>
+<th>內容</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>盤查（Quantification）</td>
+<td>找出排放來源、收集資料、計算排放量</td>
+<td>依所選標準的方法計算</td>
+</tr>
+<tr>
+<td>報告（Reporting）</td>
+<td>把計算範圍、方法與結果寫清楚</td>
+<td>說明資料從哪裡來、哪些部分使用估算</td>
+</tr>
+<tr>
+<td>驗證（Verification）</td>
+<td>由獨立第三方機構確認盤查結果</td>
+<td>依查驗要求檢查資料與計算，提高報告的可信度</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>為何與財務會計高度相似？</strong></p>
+<p>財務會計把交易分類記錄，再編成報表；碳會計則盤點指定範圍的排放來源，整理成「碳總帳」。你可以用記帳的概念理解以下工作：</p>
+<ol>
+<li><strong>先定範圍</strong>：決定哪些公司、工廠與活動要一起計算。這個範圍稱為「盤查邊界」。</li>
+<li><strong>分類整理</strong>：把不同來源的排放分開記錄。GHG Protocol 使用三大範疇，ISO 14064-1:2018 則使用直接與多類間接排放分類。</li>
+<li><strong>請獨立機構檢查</strong>：由公司以外的專業機構確認資料與計算。是否一定要做，依法律、合約與所參加的計畫判斷。</li>
+<li><strong>對外說明</strong>：把需要公開的資料整理成報告。公開哪些內容，依企業類型與適用規定決定。</li>
+</ol>
+<h4 id="section-14">2.2.1 三大範疇</h4>
+<p>GHG Protocol（溫室氣體盤查議定書）把排放分成三大「範疇」，也就是三種來源類別。ISO 14064-1:2018 使用另一套直接與間接排放分類，閱讀報告時先確認採用哪一套標準。</p>
+<figure class="teaching-figure" id="fig2-1"><div class="figure-grid"><div class="figure-card"><span>範疇一</span><strong>自己直接排放</strong><p>例如：公司鍋爐燃燒燃料、公司車用油。</p></div><div class="figure-card"><span>範疇二</span><strong>購入能源的排放</strong><p>例如：外購電力的發電排放。</p></div><div class="figure-card"><span>範疇三</span><strong>其他相關活動</strong><p>例如：採購原料、運輸、客戶使用售出產品。</p></div></div><figcaption>圖 2-1　從一家公司的角度，看三大範疇</figcaption><p class="figure-note">GHG Protocol 分類的概念示意；各框大小相同，沒有表示產業占比或成本比例。</p></figure>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>範疇</th>
+<th>排放來自哪裡？</th>
+<th>常見例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>範疇一</td>
+<td>公司自有或控制的排放源直接排放</td>
+<td>鍋爐燃燒燃料、公司車用油、冷媒逸散</td>
+</tr>
+<tr>
+<td>範疇二</td>
+<td>公司購入並使用的電力、蒸氣、供熱與冷卻，在生產能源時產生的排放</td>
+<td>外購電力的發電排放</td>
+</tr>
+<tr>
+<td>範疇三</td>
+<td>公司價值鏈中，範疇二以外的其他間接排放</td>
+<td>供應商製造原料、委外運輸、客戶使用售出產品</td>
+</tr>
+</tbody>
+</table></div>
+<p>範疇用來說明排放來源與公司的關係。會計上把成本分為直接或間接成本，則是看成本能否歸到特定產品或部門；兩者各回答不同問題。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf">GHG Protocol 企業標準，第 3、4 章</a></p>
+<p>範疇三可能占企業排放的重要部分，實際占比依產業、活動與計算範圍而異。</p>
+<h4 id="section-15">2.2.2 範疇三的資料怎麼取得？</h4>
+<p>先從供應商、物流公司與客戶等對象取得資料。例如，採購部門可以向供應商索取原料碳足跡，物流部門可以整理運輸里程與運送重量。</p>
+<p>資料不足時，可以依適用方法估算。例如，以採購數量搭配適當的排放係數。排放係數就是把某項活動量換成排放量的數值。報告要寫清楚資料來自哪裡、哪些部分經過估算，以及還缺少哪些資料。</p>
+<p>同學閱讀這類報告時，可以先問三件事：算了哪些活動？資料涵蓋多少？使用了什麼估算方法？相關研究見<a class="internal-link" href="#e-scope3">範疇三延伸閱讀</a>。</p>
+<h4 id="section-16">2.2.3 組織盤查的範圍與年度比較</h4>
+<p><strong>哪些公司與工廠一起算？</strong></p>
+<p>公司先決定哪些營運事業要一起算，稱為「組織邊界」。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf">GHG Protocol 企業標準</a>提供股權比例與控制權兩種做法；採 ISO 14064-1 時，也要依該標準與適用計畫確認合併方式。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>方法</th>
+<th>怎麼判斷？</th>
+<th>簡單例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>股權比例法</td>
+<td>依公司在營運事業中的權益比例納入排放</td>
+<td>持有 40% 權益，依相應比例納入</td>
+</tr>
+<tr>
+<td>控制權法</td>
+<td>依選定的財務控制或營運控制定義，判斷是否具有控制權</td>
+<td>有控制權時納入全部排放，沒有控制權時不納入該組織邊界</td>
+</tr>
+</tbody>
+</table></div>
+<p>例如，公司持有一家營運事業 40% 的權益，採股權比例法與控制權法可能得到不同結果。公司依所採標準、報告目的與相關要求選擇方法，並一致使用。金融機構的投融資排放則另依範疇三相關規則判斷。</p>
+<p><strong>基準年與重新計算：</strong></p>
+<p>企業會選一個「基準年」，作為比較減排成果的起點。若之後買進或賣出大型工廠，排放範圍可能改變。達到所採政策的重大變動條件時，就需要重新計算基準年等歷史資料，讓前後比較使用一致的範圍。</p>
+<h3 id="section-17">2.3 不同產業的排放結構</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>產業情境</th>
+<th>可能的重要來源</th>
+<th>應核對的邊界</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>製造與電子業</td>
+<td>製程、外購電力、採購原料、售出產品使用</td>
+<td>製程特性及上下游類別</td>
+</tr>
+<tr>
+<td>金融業</td>
+<td>投融資排放（範疇三第 15 類）</td>
+<td>資產類別、多少排放分配到這筆投資，以及資料涵蓋多少</td>
+</tr>
+<tr>
+<td>能源業</td>
+<td>開採製程、能源使用、售出燃料燃燒</td>
+<td>不同能源產品的價值鏈</td>
+</tr>
+<tr>
+<td>服務業</td>
+<td>辦公能源、採購、差旅等</td>
+<td>採購結構與委外程度</td>
+</tr>
+</tbody>
+</table></div>
+<p>不同產業的排放來源不一樣，同產業的兩家公司也可能不同。因此，上表用來幫助找出值得檢查的活動。</p>
+<p>同一項排放也可能出現在不同公司的報告中。例如，供應商製造原料的排放，可能同時是供應商的範疇一，以及買方的範疇三。把多家公司資料加總時，要先處理這種重複情況。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://ghgprotocol.org/sites/default/files/standards/Scope3_Calculation_Guidance_0.pdf">GHG Protocol 範疇三指引</a>；<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://ghgprotocol.org/sites/default/files/standards_supporting/Scope%203%20Detailed%20FAQ.pdf">範疇三重複計算說明</a></p>
+<h3 id="iso-14067">2.4 產品層級盤查：ISO 14067</h3>
+<p><strong>什麼是 ISO 14067？</strong></p>
+<p>假設你想知道一瓶飲料的排放，就要追蹤原料、生產、運送、使用與包裝處理等活動。<strong>產品碳足跡</strong>是把選定範圍內的溫室氣體排放，換成二氧化碳當量後整理出的結果。</p>
+<p>ISO 14067:2018 提供產品碳足跡計算與報告的原則及要求。它幫助回答：<strong>這項產品在本次研究範圍內，產生多少排放？</strong></p>
+<p><strong>生命週期評估（LCA）：從原料到使用與處理</strong></p>
+<p>生命週期評估是沿著產品的一生，整理各階段的投入與排放。ISO 14067 依據 ISO 14040 與 ISO 14044 的架構，完整研究可包含以下階段：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>階段</th>
+<th>內容</th>
+<th>常見排放來源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原料取得</td>
+<td>開採、加工原材料</td>
+<td>能源消耗、運輸</td>
+</tr>
+<tr>
+<td>製造</td>
+<td>加工、組裝、包裝</td>
+<td>電力、燃料、化學品</td>
+</tr>
+<tr>
+<td>運輸</td>
+<td>供應鏈物流</td>
+<td>燃料消耗</td>
+</tr>
+<tr>
+<td>使用</td>
+<td>產品使用階段</td>
+<td>能耗、維護</td>
+</tr>
+<tr>
+<td>廢棄處理</td>
+<td>回收、掩埋、焚燒</td>
+<td>甲烷、溫室氣體</td>
+</tr>
+</tbody>
+</table></div>
+<p>從原料取得一路算到產品最後的處理，稱為「從搖籃到墳墓」。研究也可以只計算部分階段，並清楚說明範圍。</p>
+<p>ISO 14067 計算的是產品對氣候變化的影響。水污染等其他環境影響需要另外評估；碳抵換與產品標籤也各有規範，標籤溝通另可參考 ISO 14026。</p>
+<p><strong>怎麼一步步計算？</strong></p>
+<ol>
+<li><strong>目標與範圍界定</strong>：決定計算哪些階段，以及比較的共同單位（功能單位，例如提供相同服務量的產品）</li>
+<li><strong>清單分析</strong>：收集所有輸入（原料、能源）與輸出（產品、廢棄物）的數據</li>
+<li><strong>影響評估</strong>：將清單數據轉換為溫室氣體排放量</li>
+<li><strong>解釋與報告</strong>：編製產品碳足跡報告書</li>
+</ol>
+<p><strong>應用例子：電池出口。</strong> 電池出口到歐盟時，企業可能需要依產品類別與適用規定，準備碳足跡資料。ISO 14067 可協助整理資料，具體合規要求則依歐盟法規確認。更多說明見<a class="internal-link" href="#e-batteries">電池法規延伸閱讀</a>。</p>
+<p><strong>對財務的影響：</strong></p>
+<p>產品碳足跡資料可能透過以下方式影響企業財務：</p>
+<ul>
+<li><strong>合規成本</strong>：投入資源整理產品碳足跡，並依適用要求安排查驗</li>
+<li><strong>出口要求</strong>：適用特定碳足跡法規的產品，需依產品類別確認計算、報告與查驗要求，並安排合規作業</li>
+<li><strong>客戶要求</strong>：客戶可能依採購條件，要求供應商提供產品碳足跡資料，作為選擇產品或改善製程的依據</li>
+<li><strong>綠色金融資格</strong>：產品碳足跡可作為部分綠色專案效益的證據，各項融資資格仍依工具規範與專案條件判定</li>
+</ul>
+<h3 id="section-18">2.5 兩者的關係與差異</h3>
+<p>ISO 14064-1 與 ISO 14067 分別整理組織與產品的排放，可以互相提供資料：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>維度</th>
+<th>ISO 14064-1</th>
+<th>ISO 14067</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>盤查對象</td>
+<td>組織（企業整體）</td>
+<td>產品（個別產品或服務）</td>
+</tr>
+<tr>
+<td>比喻</td>
+<td>公司的碳總帳</td>
+<td>產品的碳身分證</td>
+</tr>
+<tr>
+<td>方法論基礎</td>
+<td>ISO 自身原則，與 GHG Protocol 可對照但非同一標準</td>
+<td>ISO 14040/14044（LCA）</td>
+</tr>
+<tr>
+<td>邊界</td>
+<td>所選組織邊界與報告邊界</td>
+<td>依研究目的界定生命週期，可為完整或部分產品碳足跡</td>
+</tr>
+<tr>
+<td>常見用途</td>
+<td>公司排放管理、永續揭露與減排目標</td>
+<td>產品改良、客戶資料與特定產品規定</td>
+</tr>
+<tr>
+<td>可能的財務影響</td>
+<td>資料整理費用、適用碳成本、客戶與融資條件</td>
+<td>資料與查驗費用、產品成本、訂單與融資條件</td>
+</tr>
+<tr>
+<td>驗證機構</td>
+<td>SGS、BSI、DNV 等第三方</td>
+<td>SGS、BSI、TÜV 等第三方</td>
+</tr>
+<tr>
+<td>強制性</td>
+<td>強制採用要求依適用法規或契約判斷</td>
+<td>同樣依產品、法規與契約判斷</td>
+</tr>
+</tbody>
+</table></div>
+<p>ISO 報告提供的資料，能否用於碳費申報、產品標示或特定融資，還要核對各制度的計算範圍、方法與查驗要求。</p>
+<blockquote>
+<p><strong>先記住這個差別：</strong> ISO 14064-1 著重組織的排放，ISO 14067 著重產品的排放。公司整體報告與客戶要求的產品資料，各有用途，可以一起幫助企業做決定。</p>
+</blockquote>
+<h3 id="section-19">2.6 本章小結</h3>
+<p>先把排放來源找出來，才能估算碳成本。組織盤查與產品碳足跡回答不同問題；使用供應商或客戶資料時，也要說明資料從哪裡來、哪些部分經過估算。下一章把這些資料用在投資比較。</p>
+<hr />
+<h2 id="toc-heading-4">第三章　碳成本與企業投資決策</h2>
+<p>假設兩臺設備價格不同、排放量也不同，哪一臺比較值得買？本章用淨現值與碳價情境分析，把排放資料轉成可以比較的投資結果。</p>
+<h3 id="section-21">3.1 學習目標</h3>
+<p>完成本章後，你可以：</p>
+<ol>
+<li>看懂 NPV，並比較投資前後增加或減少的收支。</li>
+<li>用幾組碳價比較兩臺設備。</li>
+<li>區分實際碳成本與影子碳價。</li>
+<li>說明內部碳定價如何用於投資與部門管理。</li>
+</ol>
+<h3 id="npv">3.2 NPV 分析與碳成本</h3>
+<p><strong>先看一個小例子：</strong> 今天花 100 元，一年後收到 110 元，是否值得？假設你要求的年報酬率是 10%，一年後的 110 元換算成今天，就是 110 ÷ 1.10＝100 元。再扣掉今天付出的 100 元，淨現值是 0 元，表示剛好達到這項報酬要求。</p>
+<p><strong>淨現值（NPV）</strong>就是把未來的收付款換算成今天的價值，再扣掉現在的投資。</p>
+<p>例如，一年後收到的 100 元，與今天收到的 100 元，價值有所不同，因為今天的錢可以先運用，未來收款也有風險。「折現」就是用一個比率，把未來的錢換算成今天的價值。這個比率稱為折現率。</p>
+<p>計算時，先比較「做這項投資」與「維持原狀」有什麼不同。多收到的錢減去多付出的錢，就是投資帶來的<strong>增額淨現金流</strong>。例如，新設備每年省下電費，卻增加保養費，兩者都要計算。碳費與減排省下的支出也用相同方式處理。</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV = \sum_{t=1}^{n} \frac{CF_t}{(1+r)^t} - I_0"><semantics><mrow><mi mathvariant="normal">NPV</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mfrac><mrow><msub><mi mathvariant="normal">CF</mi><mi>t</mi></msub></mrow><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><msup><mo>)</mo><mi>t</mi></msup></mrow></mfrac><mo>−</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">NPV = \sum_{t=1}^{n} \frac{CF_t}{(1+r)^t} - I_0</annotation></semantics></math></span></p>
+<p>公式中的 CFₜ 是第 t 年的增額淨現金流，r 是折現率，n 是投資年數，I₀ 是一開始的投資支出。Σ 表示把第 1 年到第 n 年的折現結果加總。</p>
+<p>NPV 大於零，表示在本次假設下，投資有機會創造超過所要求報酬的價值。實際選擇時，再看公司有多少資金、方案能否一起做，以及結果可能出現多大變動。</p>
+<p><strong>再多了解一點：</strong> 企業的資金可能來自股東，也可能來自借款。若計算的是提供給這兩方的現金流，就使用與這兩方相配合的資金成本；若只計算股東可取得的錢，就使用股東要求的報酬率。第四章會介紹企業整體常用的 WACC。</p>
+<p>若原本的增額現金流尚未計入碳成本與轉型支出，可以用下式補入。CFₜ、碳成本 Cₜ 與轉型支出，都採「做投資」相較「維持原狀」的差額。上標 carbon 表示碳成本，transition 表示轉型支出：</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV_{green} = \sum_{t=1}^{n} \frac{CF_t - C_t^{carbon} - C_t^{transition}}{(1+r)^t} - I_0"><semantics><mrow><msub><mi mathvariant="normal">NPV</mi><mrow><mi>g</mi><mi>r</mi><mi>e</mi><mi>e</mi><mi>n</mi></mrow></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mfrac><mrow><msub><mi mathvariant="normal">CF</mi><mi>t</mi></msub><mo>−</mo><msubsup><mi>C</mi><mi>t</mi><mrow><mi>c</mi><mi>a</mi><mi>r</mi><mi>b</mi><mi>o</mi><mi>n</mi></mrow></msubsup><mo>−</mo><msubsup><mi>C</mi><mi>t</mi><mrow><mi>t</mi><mi>r</mi><mi>a</mi><mi>n</mi><mi>s</mi><mi>i</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow></msubsup></mrow><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><msup><mo>)</mo><mi>t</mi></msup></mrow></mfrac><mo>−</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">NPV_{green} = \sum_{t=1}^{n} \frac{CF_t - C_t^{carbon} - C_t^{transition}}{(1+r)^t} - I_0</annotation></semantics></math></span></p>
+<p>例如，維持原狀每年碳費 100 萬元，換設備後為 90 萬元，碳成本差額就是 −10 萬元。公式減去這個負數，等於每年加上 10 萬元節省。</p>
+<p>已包含在 CFₜ 或期初投資 I₀ 的支出，在其他項目中列一次即可。估算實際碳成本時，先確認哪些排放要收費、可以扣除多少，以及合約約定由誰負擔。</p>
+<p>買設備、改生產線等大筆支出，稱為<strong>資本支出</strong>，依實際付款時間列入。<strong>折舊</strong>則是把設備成本分年記在帳上；付錢買設備與帳上記折舊，是不同的事。若折舊可讓企業少繳所得稅，這筆節省稱為<strong>稅盾</strong>，再依稅法計算。</p>
+<p><strong>影子碳價</strong>是先假設每噸排放有一個價格，用來測試投資結果。這種試算本身不會產生付款。</p>
+<p>例如，原本已用每噸 300 元計算外部碳費，現在要測試總碳價為 1,000 元的情境，就用 1,000 元取代 300 元；若採其他加價方式，則清楚說明多加的部分代表什麼。</p>
+<p>比較減排投資時，先分別算出「買設備」與「維持原狀」的收付款，再看差多少。買設備後少繳的碳費，是投資帶來的節省；仍持續排放的部分，則按適用規則計入成本。</p>
+<h3 id="npv-1">3.3 NPV 敏感性分析</h3>
+<p>想知道碳價改變會不會影響選擇，可以固定其他條件，只改碳價。這就是<strong>敏感性分析</strong>。以下先列出兩臺設備的條件，再用幾組價格比較。</p>
+<h4 id="section-22">例題 3-1：比較兩臺設備</h4>
+<p>設備 A、B 只能選一個，稱為「互斥方案」。本題金額以新臺幣計算。兩者使用年限均為十年，折現率為 10%，每年年底產生相同金額的現金流，因此使用年金現值係數 6.1446。</p>
+<p>本題先不考慮所得稅、設備期末出售價值（殘值）、營運資金及物價變動。p 代表每噸排放的新臺幣價格；假設這是新增生產線，未投資時沒有本題的現金流與排放；表中排放量是選用設備後新增、且納入情境計價的排放。p 是影子碳價，試算本身不代表實際付款。這是比較設備的教學模型，臺灣法定碳費另依其規定計算。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>條件</th>
+<th>設備 A（低碳）</th>
+<th>設備 B（傳統）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>初始投資</td>
+<td>5,000 萬元</td>
+<td>4,000 萬元</td>
+</tr>
+<tr>
+<td>每年碳成本前增額淨現金流</td>
+<td>1,500 萬元</td>
+<td>1,400 萬元</td>
+</tr>
+<tr>
+<td>每年適用計價排放量</td>
+<td>1,000 噸</td>
+<td>2,000 噸</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>先讀懂單位：</strong> 下式以萬元計算。設備 A 每年排放 1,000 噸，碳價為 p 元時，碳成本為 1,000p 元，換成萬元就是 0.1p；設備 B 則為 0.2p。每年現金流扣除碳成本後，乘以 6.1446，得到十年的現值，再扣除初始投資：</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV_A(p) = -5,000 + (1,500 - 0.1p) \times 6.1446"><semantics><mrow><msub><mi mathvariant="normal">NPV</mi><mi>A</mi></msub><mo>(</mo><mi>p</mi><mo>)</mo><mo>=</mo><mo>−</mo><mn>5,000</mn><mo>+</mo><mo>(</mo><mn>1,500</mn><mo>−</mo><mn>0.1</mn><mi>p</mi><mo>)</mo><mo>×</mo><mn>6.1446</mn></mrow><annotation encoding="application/x-tex">NPV_A(p) = -5,000 + (1,500 - 0.1p) \times 6.1446</annotation></semantics></math></span></p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV_B(p) = -4,000 + (1,400 - 0.2p) \times 6.1446"><semantics><mrow><msub><mi mathvariant="normal">NPV</mi><mi>B</mi></msub><mo>(</mo><mi>p</mi><mo>)</mo><mo>=</mo><mo>−</mo><mn>4,000</mn><mo>+</mo><mo>(</mo><mn>1,400</mn><mo>−</mo><mn>0.2</mn><mi>p</mi><mo>)</mo><mo>×</mo><mn>6.1446</mn></mrow><annotation encoding="application/x-tex">NPV_B(p) = -4,000 + (1,400 - 0.2p) \times 6.1446</annotation></semantics></math></span></p>
+<p><strong>找出交叉點：</strong> 當兩設備的 NPV 相等時，就是投資排序改變的臨界碳價。把上面兩式設為相等，可算出：</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="p^* = \frac{1,000/6.1446 - 100}{0.1} \approx \text{627.45 元／噸}"><semantics><mrow><msup><mi>p</mi><mo>*</mo></msup><mo>=</mo><mfrac><mrow><mn>1,000</mn><mo>/</mo><mn>6.1446</mn><mo>−</mo><mn>100</mn></mrow><mrow><mn>0.1</mn></mrow></mfrac><mo>≈</mo><mtext>627.45 元／噸</mtext></mrow><annotation encoding="application/x-tex">p^* = \frac{1,000/6.1446 - 100}{0.1} \approx \text{627.45 元／噸}</annotation></semantics></math></span></p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th style="text-align: right;">碳價（元／噸）</th>
+<th style="text-align: right;">A 的 NPV（萬元）</th>
+<th style="text-align: right;">B 的 NPV（萬元）</th>
+<th style="text-align: right;">A − B（萬元）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4,216.9</td>
+<td style="text-align: right;">4,602.4</td>
+<td style="text-align: right;">-385.5</td>
+</tr>
+<tr>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">3,909.7</td>
+<td style="text-align: right;">3,988.0</td>
+<td style="text-align: right;">-78.3</td>
+</tr>
+<tr>
+<td style="text-align: right;">1,000</td>
+<td style="text-align: right;">3,602.4</td>
+<td style="text-align: right;">3,373.5</td>
+<td style="text-align: right;">228.9</td>
+</tr>
+<tr>
+<td style="text-align: right;">2,000</td>
+<td style="text-align: right;">2,988.0</td>
+<td style="text-align: right;">2,144.6</td>
+<td style="text-align: right;">843.4</td>
+</tr>
+<tr>
+<td style="text-align: right;">3,000</td>
+<td style="text-align: right;">2,373.5</td>
+<td style="text-align: right;">915.7</td>
+<td style="text-align: right;">1,457.8</td>
+</tr>
+</tbody>
+</table></div>
+<p>兩設備 NPV 都隨碳價提高而下降；A 排放較少，下降速度較慢。由兩式相等可得臨界碳價約每噸 <strong>627 元</strong>。此值僅適用本題假設。隨碳價上升，A 的 NPV 降幅較小，因此相對於 B 的投資優勢逐漸擴大。</p>
+<figure class="teaching-figure" id="fig3-1"><div class="chart-scroll" tabindex="0" role="region" aria-label="設備 NPV 曲線圖，可左右滑動"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="npv-chart-title npv-chart-desc"><title id="npv-chart-title">設備 A 與 B 的 NPV 比較</title><desc id="npv-chart-desc">碳價由零提高到每噸三千元，兩設備 NPV 均下降。A 的降幅較小，在每噸約六百二十七元時超過 B。使用例題3-1的假設，縱軸由零開始。</desc><line x1="86" y1="355" x2="724" y2="355" stroke="#dce5df"/><text x="74" y="361" text-anchor="end">0</text><line x1="86" y1="296.8" x2="724" y2="296.8" stroke="#dce5df"/><text x="74" y="302.8" text-anchor="end">1,000</text><line x1="86" y1="238.6" x2="724" y2="238.6" stroke="#dce5df"/><text x="74" y="244.6" text-anchor="end">2,000</text><line x1="86" y1="180.4" x2="724" y2="180.4" stroke="#dce5df"/><text x="74" y="186.4" text-anchor="end">3,000</text><line x1="86" y1="122.2" x2="724" y2="122.2" stroke="#dce5df"/><text x="74" y="128.2" text-anchor="end">4,000</text><line x1="86" y1="64" x2="724" y2="64" stroke="#dce5df"/><text x="74" y="70" text-anchor="end">5,000</text><text x="86" y="385" text-anchor="middle">0</text><text x="192.33333333333331" y="385" text-anchor="middle">500</text><text x="298.66666666666663" y="385" text-anchor="middle">1,000</text><text x="511.3333333333333" y="385" text-anchor="middle">2,000</text><text x="724" y="385" text-anchor="middle">3,000</text><text x="86" y="27">NPV（萬元）</text><text x="724" y="416" text-anchor="end">碳價（元／噸）</text><polyline points="86,109.57642000000001 192.33333333333331,127.45720599999999 298.66666666666663,145.33799200000007 511.3333333333333,181.09956400000004 724,216.86113600000002" fill="none" stroke="#24735b" stroke-width="4"/><polyline points="86,87.13799200000008 192.33333333333331,122.89956400000003 298.66666666666663,158.66113600000003 511.3333333333333,230.18428000000003 724,301.70742400000006" fill="none" stroke="#b06032" stroke-width="4" stroke-dasharray="11 6"/><line x1="219.43668695548396" x2="219.43668695548396" y1="132.0148480000001" y2="355" stroke="#8b7135" stroke-dasharray="4 4"/><circle cx="219.43668695548396" cy="132.0148480000001" r="6" fill="#8b7135"/><path d="M 226.43668695548396 127.01484800000009 L 334 102" fill="none" stroke="#8b7135"/><rect x="335" y="65" width="285" height="39" rx="7" fill="#fff8e5"/><text x="347" y="91">交叉點：約 627 元／噸</text><text x="410" y="28" fill="#24735b">━━ A（低碳）</text><text x="584" y="28" fill="#b06032">┄┄ B（傳統）</text></svg></div><figcaption>圖 3-1　碳價改變時，兩設備的 NPV 如何變動</figcaption><p class="figure-note">依例題 3-1 的教學模型計算。手機可左右滑動看完整座標；詳細數字見練習表格。</p></figure>
+<p>圖中的交叉點代表兩臺設備 NPV 相同的碳價。低於這個價格時，B 的 NPV 較高；高於這個價格時，A 的 NPV 較高。臨界值會隨設備價格、每年收支、排放與折現率改變。</p>
+<h4 id="section-23">練習 3-2：改變一項條件</h4>
+<p>沿用例題 3-1，假設設備 A 的購買價格提高為新臺幣 5,500 萬元，其他條件不變。先算碳價為零時兩者的 NPV，再算新的交叉點。答案見附錄 B。</p>
+<p>如果企業可以延後投資、擴大生產、切換技術或退出，這些選擇也可能有價值，稱為「實物選擇權」，可再進一步評估。</p>
+<h3 id="internal-carbon-pricing-icp">3.4 內部碳定價（Internal Carbon Pricing, ICP）</h3>
+<p>前面介紹了如何用 NPV 比較投資。接下來要處理的是：未來碳價還不確定，該用多少錢計算碳成本？企業可以先設定幾種價格試算，觀察投資結果如何改變。這種做法就是內部碳定價（ICP）的一種應用。</p>
+<p><strong>什麼是 ICP？</strong></p>
+<p><strong>內部碳定價（ICP）</strong>是企業把排放換成金額，協助投資、預算與部門管理的工具。企業可用「影子碳價」做試算，也可用「內部碳費」安排部門收費與減碳資金。</p>
+<p>例如，一臺設備會使用十年，公司可以用幾組碳價計算 NPV，觀察未來成本改變後的結果。若特別測試較不利的條件，就稱為「壓力測試」。這是 ICP 的一種用途。</p>
+<p><strong>為什麼企業需要 ICP？</strong></p>
+<p>法定碳價回答「依法要付多少」，內部碳價則幫助企業問「如果未來碳價改變，投資結果會怎樣」。企業可用幾組價格試算，提早準備不同情況。</p>
+<h4 id="icp">3.4.1 ICP 的常見形式</h4>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>形式</th>
+<th>操作方式</th>
+<th>注意事項</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>影子價格</td>
+<td>在試算表裡，先假設每噸排放有一個價格</td>
+<td>通常只用來分析，沒有實際向部門收款</td>
+</tr>
+<tr>
+<td>內部碳費</td>
+<td>公司向內部部門收費或安排預算，用來支持減排</td>
+<td>公司內部移轉資金，與整家公司付給外部的錢分開看</td>
+</tr>
+</tbody>
+</table></div>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.wbcsd.org/news/integrating-climate-with-financials-internal-carbon-pricing/">世界永續發展商業理事會（WBCSD）的資料</a>指出，各公司使用內部碳價的方式不同。實際效果取決於公司為什麼設定這個價格、如何用在決策中，以及後續如何追蹤結果。</p>
+<h4 id="icp-1">3.4.2 如何選擇適當的 ICP</h4>
+<p>比較兩家公司的內部碳價，先看是否使用相同年度與幣別，再看計算哪些排放、用來做什麼決定。引用公司資料時，附上原報告的頁碼或段落，方便查找。</p>
+<p>設定價格時，可參考未來政策、減少一噸排放所需成本、客戶要求，以及企業願意承擔的風險。接著用幾組價格試算，看看投資排序會如何改變。</p>
+<h4 id="icp-2">3.4.3 ICP 如何納入投資決策流程？</h4>
+<pre><code>投資提案提出 → 計算專案碳排 → 以 ICP 乘以碳排 → 調整現金流 → 重新計算 NPV → 決策
+</code></pre>
+<p>具體流程：</p>
+<ol>
+<li><strong>先估排放</strong>：列出專案各階段的主要排放，包括範疇一、二，以及重要的範疇三。</li>
+<li><strong>套入價格</strong>：把適用的排放量乘上內部碳價，估算這個情境的碳成本。</li>
+<li><strong>分清實際與假設</strong>：把真正要收付的錢與情境試算分開，並確認原本已算入的碳費如何調整。</li>
+<li><strong>一起做決定</strong>：比較 NPV、不同碳價下的結果與法律要求，再看資金是否足夠，以及哪些方案只能擇一。</li>
+</ol>
+<blockquote>
+<p><strong>重點：</strong> 內部碳價要真正用在設備選擇、預算安排等決定中，才可能改變行動。企業可追蹤哪些投資因試算結果而調整，進一步評估工具是否有用。</p>
+</blockquote>
+<h4 id="section-24">3.4.4 企業使用內部碳定價的情形</h4>
+<p>根據 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.wbcsd.org/news/integrating-climate-with-financials-internal-carbon-pricing/">BCG 與世界永續發展商業理事會（WBCSD）整理的資料</a>，2024 年有 1,753 家企業回報使用 ICP，比 2021 年增加約 89%。這項統計涵蓋向 CDP 回報的企業；CDP 是企業揭露環境資訊的平台。</p>
+<figure class="teaching-figure" id="fig3-2"><div class="figure-grid two"><div class="figure-card"><span>2024 年回報使用 ICP</span><strong>1,753 家</strong><p>統計對象：向 CDP 回報的企業。</p></div><div class="figure-card"><span>與 2021 年相比</span><strong>增加約 89%</strong><p>呈現兩個年度的比較結果。</p></div></div><figcaption>圖 3-2　CDP 回報資料中的內部碳價使用情形</figcaption><p class="figure-note">依 BCG 與 WBCSD（2025）整理資料；這是回報企業的統計，非全球企業普查。</p></figure>
+<p>這些資料顯示，回報使用 ICP 的企業增加了。對企業而言，重點是這個工具是否真的用在設備選擇、採購或預算安排。下一節用一個投資例題，練習計算內部碳價對 NPV 的影響。</p>
+<h3 id="icp-3">3.5 ICP 下的投資決策：計算練習</h3>
+<p>計算練習 3-3：影子碳價下的投資決策
+某公司準備花新臺幣 1 億元投資。相較於維持原狀，這項投資預計在未來五年，每年帶來 3,000 萬元淨現金流；這個金額已扣其他營運成本，尚未扣碳成本。</p>
+<p>本題是一項新增投資：未執行時，沒有本題列出的收入、支出與排放；執行後，每年新增排放 2,000 公噸 CO₂e。公司用每公噸新臺幣 500 元的影子碳價試算，折現率為 10%。本題先不計所得稅、營運資金與設備最後的出售價值。</p>
+<p>500 元與後續的 1,000 元都是管理試算假設。本題計算的是「影子碳價下的情境 NPV」；這些價格本身不代表對外付款，也沒有再加計其他外部碳費。</p>
+<p><strong>先讀懂 3.7908：</strong> 本題假設每年年底收到相同金額。先把五年的折現係數加總，得到 3.7908，稱為「年金現值係數」。把每年金額乘上它，就能算出五年合計的今天價值。</p>
+<p>已知條件：</p>
+<ul>
+<li>初始投資 <span class="inline-equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="I_0"><semantics><mrow><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">I_0</annotation></semantics></math></span> = 新臺幣 1 億元</li>
+<li>碳成本前增額淨現金流 = 新臺幣 3,000 萬元</li>
+<li>年碳排 = 2,000 噸 CO₂e</li>
+<li>ICP = 新臺幣 500 元/噸</li>
+<li>折現率 <span class="inline-equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="r"><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span> = 10%</li>
+<li>年金現值係數 <span class="inline-equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="(P/A, 10\%, 5)"><semantics><mrow><mo>(</mo><mi>P</mi><mo>/</mo><mi>A</mi><mo>,</mo><mn>10</mn><mo>%</mo><mo>,</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">(P/A, 10\%, 5)</annotation></semantics></math></span> = 3.7908</li>
+</ul>
+<p>問題：</p>
+<ol>
+<li>計算不含碳成本的 NPV</li>
+<li>計算影子碳價下的情境 NPV</li>
+<li>計算 ICP 對 NPV 的影響比例</li>
+<li>若 ICP 提高至 新臺幣 1,000 元/噸，結果如何？</li>
+</ol>
+<p>詳細解答（以下金額以新臺幣萬元計算）：</p>
+<ol>
+<li>不含碳成本 NPV：
+<span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV = -10,000 + 3,000 \times 3.7908 = \textbf{1,372.40}"><semantics><mrow><mi mathvariant="normal">NPV</mi><mo>=</mo><mo>−</mo><mn>10,000</mn><mo>+</mo><mn>3,000</mn><mo>×</mo><mn>3.7908</mn><mo>=</mo><mtext mathvariant="bold">1,372.40</mtext></mrow><annotation encoding="application/x-tex">NPV = -10,000 + 3,000 \times 3.7908 = \textbf{1,372.40}</annotation></semantics></math></span></li>
+<li>每公噸新臺幣 500 元影子碳價下的情境 NPV：
+年碳成本＝2,000 公噸 × 每公噸新臺幣 500 元＝新臺幣 100 萬元
+碳成本現值＝100 × 3.7908＝379.08 萬元</li>
+</ol>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV = -10,000 + (3,000 - 100) \times 3.7908 = \textbf{993.32}"><semantics><mrow><mi mathvariant="normal">NPV</mi><mo>=</mo><mo>−</mo><mn>10,000</mn><mo>+</mo><mo>(</mo><mn>3,000</mn><mo>−</mo><mn>100</mn><mo>)</mo><mo>×</mo><mn>3.7908</mn><mo>=</mo><mtext mathvariant="bold">993.32</mtext></mrow><annotation encoding="application/x-tex">NPV = -10,000 + (3,000 - 100) \times 3.7908 = \textbf{993.32}</annotation></semantics></math></span>
+3. 影響比例：
+<span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="\frac{1,372.40 - 993.32}{1,372.40} = \textbf{27.6\%}"><semantics><mrow><mfrac><mrow><mn>1,372.40</mn><mo>−</mo><mn>993.32</mn></mrow><mrow><mn>1,372.40</mn></mrow></mfrac><mo>=</mo><mtext mathvariant="bold">27.6%</mtext></mrow><annotation encoding="application/x-tex">\frac{1,372.40 - 993.32}{1,372.40} = \textbf{27.6\%}</annotation></semantics></math></span>
+4. ICP 提高至 新臺幣 1,000 元/噸：
+年碳成本＝2,000 公噸 × 每公噸新臺幣 1,000 元＝新臺幣 200 萬元
+碳成本現值＝200 × 3.7908＝758.16 萬元
+<span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV = -10,000 + (3,000 - 200) \times 3.7908 = \textbf{614.24}"><semantics><mrow><mi mathvariant="normal">NPV</mi><mo>=</mo><mo>−</mo><mn>10,000</mn><mo>+</mo><mo>(</mo><mn>3,000</mn><mo>−</mo><mn>200</mn><mo>)</mo><mo>×</mo><mn>3.7908</mn><mo>=</mo><mtext mathvariant="bold">614.24</mtext></mrow><annotation encoding="application/x-tex">NPV = -10,000 + (3,000 - 200) \times 3.7908 = \textbf{614.24}</annotation></semantics></math></span>
+（較未計碳成本時下降約 55%）</p>
+<p><strong>這題告訴我們：</strong> 內部碳價從每噸 500 元提高到 1,000 元時，試算 NPV 從約 993 萬元降到約 614 萬元。同一項投資，在不同碳價假設下，結果可能差很多，因此值得多試幾組價格。</p>
+<h3 id="section-25">3.6 如何觀察內部碳價的作用？</h3>
+<p>公司可以追蹤：使用內部碳價後，哪些設備、採購或預算選擇改變了？相關減排措施是否執行？排放量與營運條件有什麼變化？</p>
+<p>例如，排放下降也可能來自產量減少。把產量、能源使用與設備更新一起看，才能更清楚了解變化的原因。企業可據此調整價格、資料與管理方式。</p>
+<h3 id="section-26">3.7 本章小結</h3>
+<p>投資比較時，把適用碳成本一起算入，再測試碳價改變後的結果。這樣可以看出，今天較便宜的設備，在未來是否仍然划算。</p>
+<p><strong>本章關鍵收穫：</strong></p>
+<ol>
+<li><p><strong>先把收付算完整</strong>：投資比較要計入適用的碳費、CBAM 等成本，也要估算政策與市場改變對收入、支出的影響。</p>
+</li>
+<li><p><strong>多試幾組碳價</strong>：比較 NPV 如何改變。本書案例中，碳價超過某個數字後，低碳設備變得更有利；這個數字稱為「臨界碳價」。</p>
+</li>
+<li><p><strong>ICP 協助投資與管理</strong>：影子碳價可用來比較投資情境；內部碳費可用來安排部門收費與減碳資金。使用時先說清楚目的與計算範圍。</p>
+</li>
+<li><p><strong>把實際付款與假設分開</strong>：實際對外支付的碳成本會影響手上現金；影子碳價則先用於試算，協助比較投資結果。</p>
+</li>
+</ol>
+<hr />
+<h2 id="toc-heading-5">第四章　綠色融資：永續連結貸款與綠色債券</h2>
+<p>買設備需要錢，錢從哪裡來？這就是<strong>融資</strong>。企業可以向銀行借款，也可以發行債券或股票。</p>
+<p>本章介紹綠色債券與永續連結貸款，看看減碳專案與永續表現，如何和籌錢的方式連在一起。實際能省多少費用，要看市場、合約與額外支出。</p>
+<h3 id="section-28">4.1 學習目標</h3>
+<p>完成本章後，你可以：</p>
+<ol>
+<li>分辨綠色債券與永續連結貸款。</li>
+<li>用基點計算利息差額。</li>
+<li>看懂年度發行量與累計發行量的差別。</li>
+<li>說明 WACC 的基本意思，以及融資條件為什麼因企業而異。</li>
+</ol>
+<h3 id="section-29">4.2 綠色債券市場：讀懂規模與分類</h3>
+<p><strong>綠色債券</strong>是企業或機構向投資人借錢的一種方式，募集的資金用於符合規範的綠色專案。表中的 aligned 指 Climate Bonds 依其方法評估符合要求的分類；GSS+ 則是包含多類永續債券的較大範圍。</p>
+<figure class="teaching-figure" id="fig4-1"><div class="figure-grid"><div class="figure-card"><span>綠色債券：當年發行</span><strong>6,535 億美元</strong><p>只計 2025 年，採 aligned 分類。</p></div><div class="figure-card"><span>綠色債券：歷年累計</span><strong>超過 4 兆美元</strong><p>累計至 2025 年底。</p></div><div class="figure-card"><span>GSS+：歷年累計</span><strong>6.8 兆美元</strong><p>涵蓋綠色等多類永續債券。</p></div></div><figcaption>圖 4-1　2025 年綠色與永續債券市場：三種不同指標</figcaption><p class="figure-note">依 Climate Bonds 於 2026 年 3 月發布的資料。三框採不同時間或分類範圍，數值分別閱讀，並非可加總的三部分。</p></figure>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>2025 年資料</th>
+<th>這筆資料包括什麼？</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>綠色債券年度發行量</td>
+<td>6,535 億美元</td>
+<td>Climate Bonds 的 aligned 綠色債券</td>
+</tr>
+<tr>
+<td>綠色債券累計發行量</td>
+<td>超過 4 兆美元</td>
+<td>截至 2025 年底</td>
+</tr>
+<tr>
+<td>GSS+ 累計發行量</td>
+<td>6.8 兆美元</td>
+<td>包含綠色、社會、永續及永續連結債券</td>
+</tr>
+</tbody>
+</table></div>
+<p>來源為 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.climatebonds.net/news-events/press-room/press-releases/sustainable-debt-market-nears-usd7-trillion-aligned-issuance-demonstrating-strong-global-momentum">Climate Bonds 於 2026 年 3 月發布的 2025 年市場資料</a>。年度發行量呈現當年新增規模，累計發行量呈現歷年總額，尚未償還餘額則表示仍未到期或償還的債券金額。GSS+ 涵蓋多類永續債券，綠色債券為其中一類。</p>
+<h3 id="section-30">4.3 綠色溢價：價格溢價與殖利率差</h3>
+<p><strong>綠色溢價（Greenium）</strong>指在發行人信用、期限等條件相近時，投資人願意為綠色債券付較高價格，或接受較低的殖利率。殖利率可理解為依買入價格與未來收款估算的報酬率；在其他條件相同時，買入價格越高，殖利率越低。</p>
+<p>比較綠色債券與一般債券時，要一起考慮發行人的還款能力、期限、幣別、交易是否容易、稅制與發行時間。也要區分「初級市場」（新債券發行）與「次級市場」（已發行債券的買賣）。研究觀察到的利率差異，會隨市場與樣本改變。<a class="internal-link" href="#e-green-bonds">綠色債券研究的適用範圍</a></p>
+<p>接下來用一個例子，看看利率差異能讓企業少付多少利息。計算前，先認識常用單位「基點」：1 個基點等於 0.01 個百分點。例如，利率從 3.00% 降到 2.95%，就是下降 5 個基點，寫作 5 bps。</p>
+<p><strong>票息</strong>是依債券約定支付的利息。假設企業發行 10 億美元債券，約定的票面利率低了 3 bps，本金維持不變，每年就少付 30 萬美元利息。</p>
+<p>債券發行後，投資人之間的買賣價格可能改變，殖利率也會變動；原本約定的固定票息仍按合約支付。估算企業真正省下多少，還要扣掉評估、報告與發行增加的費用。</p>
+<h3 id="esg-wacc">4.4 ESG 與 WACC：風險、融資條件與資本成本</h3>
+<p><strong>ESG</strong>是環境（E）、社會（S）與公司治理（G）。企業如何用能源、對待員工、管理公司，都可能影響經營風險。</p>
+<p><strong>WACC 可以先理解為：企業取得資金，平均要付出多高的成本。</strong></p>
+<p>假設公司需要新臺幣 100 萬元，其中 50 萬元向銀行借款，借款利率為 4%；另外 50 萬元由股東投入，股東希望獲得 8% 的報酬。</p>
+<p>本例先不計借款的節稅效果。兩種資金各占 50%，因此平均資金成本為：</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="4\% \times 50\% + 8\% \times 50\% = 6\%"><semantics><mrow><mn>4</mn><mo>%</mo><mo>×</mo><mn>50</mn><mo>%</mo><mo>+</mo><mn>8</mn><mo>%</mo><mo>×</mo><mn>50</mn><mo>%</mo><mo>=</mo><mn>6</mn><mo>%</mo></mrow><annotation encoding="application/x-tex">4\% \times 50\% + 8\% \times 50\% = 6\%</annotation></semantics></math></span></p>
+<p>這種按資金比例計算的平均，稱為「加權平均」。股東希望獲得的報酬，是評估資金成本的依據，實際回報則取決於經營結果。</p>
+<p>完整名稱是<strong>加權平均資金成本（WACC）</strong>。這個例子先說明基本算法；實務計算還會納入借款利息可能產生的節稅效果，並依股權與債務的市場價值計算占比。<a class="internal-link" href="#e-valuation">WACC 的進一步說明</a></p>
+<figure class="teaching-figure" id="fig4-2"><div class="figure-flow"><div class="flow-step"><strong>企業改善風險管理</strong><p>例如：減少停工風險、改善資料品質。</p></div><div class="flow-step"><strong>銀行與投資人評估</strong><p>觀察還款能力、未來風險與資金需求。</p></div><div class="flow-step"><strong>融資條件可能改變</strong><p>利率或要求報酬，仍依實際條件判定。</p></div></div><figcaption>圖 4-2　永續表現可能如何影響資金成本</figcaption><p class="figure-note">概念路徑示意。ESG 分數與資金成本之間沒有在本圖設定固定換算比例。</p></figure>
+<p>良好的風險管理可能改善還款能力或吸引資金，進而影響資金成本。不過，觀察到「ESG 評分較高的企業，WACC 較低」，也可能與規模、產業或其他條件有關。判斷 ESG 是否造成資金成本下降，需要進一步研究。</p>
+<p>每項投資的風險不同，使用的資金成本也要配合。計算時，先確認哪些風險已反映在未來收入與支出，再決定折現率如何處理，讓同一風險在模型中獲得一致的計算。</p>
+<h3 id="section-31">4.5 利率差如何影響融資效益？</h3>
+<p>利率較低，可能讓企業少付利息；資料整理、外部評估與報告也會產生費用。把兩者放在同一期間比較，才能了解融資的整體效益。以下先練習計算利息差額。</p>
+<h4 id="section-32">計算練習 4-1：綠色債券利息節省</h4>
+<p><strong>教學假設：</strong> 10 億美元本金、10 年固定期限，發行時取得 5 bps 的票息節省；本金全期不減少，不計額外成本。</p>
+<ul>
+<li>每年少付的利息＝10 億美元 × 0.0005＝<strong>50 萬美元</strong>。</li>
+<li>十年合計少付利息＝50 萬美元 × 10＝<strong>500 萬美元</strong>（尚未折現）。</li>
+<li>若要計算 NPV，再設定折現率，並扣除認證、報告與發行所增加的費用。本題採用 5 bps 作為利息節省的教學假設。</li>
+</ul>
+<h3 id="sll">4.6 永續連結貸款（SLL）</h3>
+<p>企業向銀行借款時，可以約定：如果在指定時間達成減碳等永續目標，就依合約調整貸款條件。這類貸款稱為「永續連結貸款」，英文簡稱 SLL。</p>
+<p>例如，銀行與企業約定：「每單位產品的排放量降低 10%，並經確認達標後，貸款利率下調 0.10 個百分點。」企業達成目標，就能依約少付利息。</p>
+<p>SLL 的重點是<strong>把企業的永續表現與貸款條件連在一起</strong>。實際是否降息、調整多少、何時開始，都要看合約。資金可以用在哪裡，也依合約規定。</p>
+<p>國際貸款市場協會共同發布的<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.lma.eu.com/application/files/2317/4481/8026/Sustainability-Linked_Loan_Principles_-_26_March_2025_.pdf">《永續連結貸款原則》（2025 年版）</a>，整理了五項重點：</p>
+<ol>
+<li><strong>決定看什麼指標。</strong> 例如每單位產品的排放量。指標要與企業的重要永續議題有關，稱為「關鍵績效指標」（KPI）。</li>
+<li><strong>約定要進步多少、何時達成。</strong> 例如三年內降低 10%。目標應有明確起點與期限，也要有足夠挑戰性，稱為「永續績效目標」（SPT）。</li>
+<li><strong>寫清楚貸款條件怎麼變。</strong> 包括達標或未達標時如何處理，以及調整何時生效。</li>
+<li><strong>定期報告進度。</strong> 企業依約提供資料，讓銀行了解實際表現。</li>
+<li><strong>由獨立機構確認結果。</strong> 透過驗證，提高績效資料的可信度。</li>
+</ol>
+<p>企業評估這類貸款時，可以比較「可能省下的利息」與「新增的資料整理、報告及驗證費用」，再判斷整體是否合適。協會名稱與浮動利率說明見<a class="internal-link" href="#e-sll">延伸閱讀</a>。</p>
+<h4 id="section-33">計算練習 4-2：達標後可以少付多少利息？</h4>
+<p>某企業借入 5 億美元，合約約定：每單位產品排放量降低 10%，經確認達標後，貸款利率下調 10 個基點（10 bps）。</p>
+<p>假設五年都適用這項降息，借款本金維持 5 億美元，先不計手續費與折現。五年可以少付多少利息？</p>
+<p><strong>先換算利率：</strong> 10 個基點等於 0.10 個百分點，計算時使用 0.001。</p>
+<ul>
+<li>每年少付利息＝5 億美元 × 0.001＝<strong>50 萬美元</strong>。</li>
+<li>五年合計少付利息＝50 萬美元 × 5＝<strong>250 萬美元</strong>。</li>
+</ul>
+<p>若降息較晚生效，就從生效後開始計算。實際效益還要考慮本金變動與新增費用。</p>
+<hr />
+<h2 id="toc-heading-6">第五章　氣候風險與企業評價</h2>
+<p>前面四章介紹制度、排放資料、投資與融資。本章進一步問：如果碳成本上升，或洪水讓工廠停工，企業的整體價值會如何改變？你將學習從未來現金流與風險兩方面分析。</p>
+<h3 id="section-35">5.1 學習目標與基本概念</h3>
+<p>完成本章後，你可以：</p>
+<ol>
+<li>用例子說明轉型風險與實體風險。</li>
+<li>說明氣候風險如何改變企業收支與資金成本。</li>
+<li>把未來碳成本換算成今天的價值。</li>
+<li>分辨營運價值與收購 NPV，並看懂不同的下降百分比。</li>
+</ol>
+<h4 id="section-36">5.1.1 轉型風險與實體風險</h4>
+<p>企業面對的氣候風險，可以先分成以下兩類：</p>
+<p><strong>轉型風險</strong>來自「社會走向低碳的過程」。例如，政府提高碳費、客戶改買低碳產品，或新技術讓舊設備失去競爭力，都可能改變企業的收入與支出。變化可能突然發生，也可能逐年累積。</p>
+<p><strong>實體風險</strong>來自「氣候對實際環境的影響」。例如，洪水讓工廠停工，熱浪增加冷卻用電，海平面上升影響沿海設施。洪水等事件可能立即造成損失，長期暖化則可能逐步增加影響。</p>
+<p>兩者的差異如下：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>比較項目</th>
+<th>轉型風險</th>
+<th>實體風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>常見例子</td>
+<td>碳價提高、客戶改買低碳產品、技術更新</td>
+<td>洪水、熱浪、長期缺水</td>
+</tr>
+<tr>
+<td>可能發生的變化</td>
+<td>收入、能源與碳成本、設備價值、融資條件改變</td>
+<td>停工、修繕、供應中斷、設備受損、保險與融資條件改變</td>
+</tr>
+<tr>
+<td>需要取得的資料</td>
+<td>適用法規、產品需求、技術成本與合約</td>
+<td>工廠與供應商位置、氣候資料、防災能力與保險範圍</td>
+</tr>
+<tr>
+<td>可採取的行動</td>
+<td>比較減碳設備、能源與產品方案</td>
+<td>改善防洪及冷卻設施、安排保險、分散供應來源</td>
+</tr>
+</tbody>
+</table></div>
+<p>兩類風險都可能影響收入、成本、資產與現金流，也都可用情境分析評估。能預先了解多少，取決於政策、事件、地點與可取得的資料。例如，洪水可能同時損壞設備並造成停工，兩項影響需要分別估算。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s2-climate-related-disclosures/">IFRS S2 氣候相關揭露</a></p>
+<h4 id="section-37">5.1.2 氣候風險如何影響企業自由現金流與折現率</h4>
+<p>評估企業價值時，先問兩個問題：未來能產生多少現金？取得這些現金要承擔多少風險？氣候風險可能同時影響這兩者。</p>
+<p><strong>路徑一：影響企業自由現金流（FCFF）</strong></p>
+<p>先想像企業一年收到貨款，再支付原料、薪資等支出，還要維修或添購必要設備。完成營運與必要投資後，可提供給資金提供者的現金，稱為<strong>自由現金流（FCF）</strong>。這是一般名稱，使用時要說明計算範圍。</p>
+<p>本章從整家公司來看，使用可提供給股東與債權人的<strong>企業自由現金流（FCFF）</strong>，並搭配 WACC 估值。</p>
+<p><strong>進一步的計算方式：</strong> FCFF＝營業利益 EBIT ×（1 − 稅率）＋折舊攤銷 − 資本支出 − 營運資金增加。</p>
+<p>可以分成四步讀：先算營業利益扣掉相關稅負後的金額；加回帳上的非現金費用；扣掉買設備等支出；再扣掉日常經營多占用的資金。例如，多備存貨、貨已賣出卻還沒收款，都可能占用現金；應付供應商的貨款增加，則可能減少當期需要先墊付的資金。營業利益是營運收入扣除相關成本與費用後的帳上金額；折舊攤銷是把設備或其他長期資產的成本分期記帳，當期通常沒有相同金額的付款，因此先加回，再扣除實際投資支出。</p>
+<p>氣候風險可能透過以下方式改變現金流：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>途徑</th>
+<th>機制</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>營收下降</td>
+<td>消費者偏好轉移、市場份額流失</td>
+<td>高碳產品需求萎縮，營收減少</td>
+</tr>
+<tr>
+<td>營運成本上升</td>
+<td>碳費、CBAM 憑證、能源價格上漲</td>
+<td>每噸碳費 新臺幣 300 元 直接增加營業成本</td>
+</tr>
+<tr>
+<td>資本支出增加</td>
+<td>減碳設備投資、生產線電氣化</td>
+<td>購置碳捕獲設備、更新環保製程</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>路徑二：影響折現率（WACC）</strong></p>
+<p>投資人承擔較高風險時，可能要求較高報酬，企業取得資金的成本也可能提高。以下是兩種可能的影響方式：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>途徑</th>
+<th>機制</th>
+<th>效應</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>權益成本上升</td>
+<td>投資者要求更高的風險溢價</td>
+<td>高碳排企業的股東要求更高的預期報酬</td>
+</tr>
+<tr>
+<td>債務成本上升</td>
+<td>銀行將碳風險納入授信審查</td>
+<td>高碳排企業的貸款利率上升，或授信額度縮減</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>把兩件事一起看：</strong> 洪水可能讓工廠少賺錢，投資人也可能因此要求較高報酬。估值時要檢查現金流與資金成本這兩條路徑，並清楚交代同一風險各如何處理。</p>
+</blockquote>
+<h3 id="section-38">5.2 企業有哪些碳成本與風險？</h3>
+<p>前面認識了氣候風險的來源，現在從企業的角度，整理哪些成本已有明確金額、哪些影響還需要估算。</p>
+<figure class="teaching-figure" id="fig5-1"><div class="iceberg-picture"><div class="iceberg-label above"><strong>水平面以上：已可明確計算的成本</strong><p>例如：依規定計算的碳費、CBAM 憑證成本。</p></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="iceberg-title iceberg-desc"><title id="iceberg-title">冰山概念圖</title><desc id="iceberg-desc">冰山尖端在水平面以上，較大的冰體延伸至水平面以下。上下區塊僅用於比喻明確成本與需要進一步評估的影響，不表示成本比例。</desc><rect x="0" y="150" width="640" height="250" rx="12" fill="#e4f2f5"/><path d="M 194 150 L 252 71 L 283 86 L 325 18 L 375 93 L 408 104 L 448 150 Z" fill="#bde0e9" stroke="#659ba9" stroke-width="2"/><path d="M 194 150 L 226 250 L 271 280 L 321 375 L 376 319 L 419 232 L 448 150 Z" fill="#74b7ca" stroke="#4c8f9f" stroke-width="2"/><path d="M 325 18 L 303 150 L 194 150 L 252 71 L 283 86 Z" fill="#edf8fb"/><path d="M 303 150 L 321 375 L 271 280 L 226 250 L 194 150 Z" fill="#a7d3e0"/><path d="M 303 150 L 375 93 L 408 104 L 448 150 L 419 232 L 376 319 Z" fill="#8dc7d7" opacity=".8"/><line x1="16" y1="150" x2="624" y2="150" stroke="#2d7786" stroke-width="4"/><rect x="456" y="111" width="160" height="33" rx="6" fill="#fff"/><text x="536" y="136" text-anchor="middle" font-size="28" font-family="Microsoft JhengHei,sans-serif" fill="#245d67">水平面</text></svg><div class="iceberg-label below"><strong>水平面以下：需要進一步評估的影響</strong><p>供應商調價、客戶需求改變、政策變動、設備提早停用、融資條件改變。</p></div></div><figcaption>圖 5-1　用冰山概念理解企業碳成本與風險</figcaption><p class="figure-note">冰山為概念示意，形狀與大小不代表實際金額或比例。成本何時記入財報，另依適用會計規定判斷。</p></figure>
+<p>冰山圖用來比喻兩類資訊。水平面以上代表已可明確計算的成本；水平面以下代表需要進一步評估的影響。圖形大小只為了說明概念。</p>
+<p><strong>水平面以上：已可明確計算的成本。</strong> 例如碳費或 CBAM 憑證成本。企業可依適用規定與資料計算金額。這些金額如何記入財報，則依交易內容與會計規定判斷。</p>
+<p><strong>水平面以下：需要進一步評估的影響。</strong> 例如供應商調價、客戶減少購買，或設備提早停用。企業需要蒐集資料、設定不同情況，估算可能受到的影響。</p>
+<ul>
+<li><strong>供應商調價</strong>：供應商可能把增加的碳成本反映在原料售價中。</li>
+<li><strong>客戶改變選擇</strong>：客戶轉向其他產品，可能影響銷售。</li>
+<li><strong>未來規定改變</strong>：新要求可能帶來設備、資料或人力支出。</li>
+<li><strong>設備提早失去價值</strong>：原定使用多年的設備，可能因政策或市場改變而提早停用，這稱為「擱淺資產風險」。</li>
+<li><strong>融資條件改變</strong>：銀行與投資人評估風險後，可能調整利率或要求報酬。</li>
+</ul>
+<p>這些影響有些已經發生，只是金額較難單獨辨認。分析時，分別說明已知資料與尚待確認的部分。</p>
+<h3 id="section-39">5.3 未來的碳成本，今天值多少？</h3>
+<p>前面認識了企業可能面對的碳成本。接下來要問：如果這些支出會在未來幾年發生，今天評估企業價值時，應如何把它們算進去？</p>
+<p><strong>折現現金流量法（DCF）</strong>把未來現金流換算成今天的價值。本章使用企業自由現金流（FCFF）搭配 WACC，碳成本也要放進相同範圍與期間的現金流中。</p>
+<p><strong>先用簡單數字練習：</strong> 本例金額均為新臺幣。假設每年需要計價的排放量為 100,000 噸，每噸 500 元，一年就是 5,000 萬元。若十年都相同，直接加總是 5 億元，這稱為「未折現總額」。</p>
+<p>這是指定條件下的試算。套用到真實企業時，再確認扣除、減排、稅、價格變化與會計規定。</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="\text{未折現情境總額} = 100,000 \times 500 \times 10 = \text{新臺幣 5 億元}"><semantics><mrow><mtext>未折現情境總額</mtext><mo>=</mo><mn>100,000</mn><mo>×</mo><mn>500</mn><mo>×</mo><mn>10</mn><mo>=</mo><mtext>新臺幣 5 億元</mtext></mrow><annotation encoding="application/x-tex">\text{未折現情境總額} = 100,000 \times 500 \times 10 = \text{新臺幣 5 億元}</annotation></semantics></math></span></p>
+<p>若以 10% 折現、各年年底付款，現值為 5,000 萬 × 6.1446 = 3.0723 億元。碳成本在企業估值中計入一次；已納入 DCF 的成本，其影響已反映於估值結果。</p>
+<p>公司可以先把預估碳費列入預算，用來安排資金。至於是否現在就要把它記成負債，要另外確認法律義務與會計條件。預算與會計負債的差別，見<a class="internal-link" href="#e-accounting">延伸閱讀</a>。</p>
+<h3 id="section-40">5.4 買下一家公司時，要多看什麼？</h3>
+<p>買進一家公司，也可能接手它的設備、合約與未來碳成本。因此，收購前要先調查排放資料、設備狀況與適用規定，再把可能的收支變化放進估值。</p>
+<p>可以先問三件事：哪些資料已確認？收購後有哪些責任或成本需要承擔？這些影響是否已算進收購價格？責任歸屬依交易安排、合約與法律判斷。</p>
+<p><strong>併購 NPV 計算例子：</strong> 本例金額均為新臺幣。假設收購整個營運事業，沒有需另外調整的有息負債與非營運資產，先不計交易費用。20 億元是全部相關營運現金流的現值，收購支出為 3.33 億元。接著設定一個氣候情境，使營運現金流現值下降 26%。這些數字用於練習計算。</p>
+<p>FCFF 搭配 WACC 算出的是整體營運價值；若交易買的是股權，還要處理負債、現金等調整，才能使用相同基準比較。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation">企業與股權的自由現金流估值說明</a></p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV_{\text{原估計}} = 20 - 3.33 = \text{16.67 億元}"><semantics><mrow><msub><mi mathvariant="normal">NPV</mi><mrow><mtext>原估計</mtext></mrow></msub><mo>=</mo><mn>20</mn><mo>−</mo><mn>3.33</mn><mo>=</mo><mtext>16.67 億元</mtext></mrow><annotation encoding="application/x-tex">NPV_{\text{原估計}} = 20 - 3.33 = \text{16.67 億元}</annotation></semantics></math></span></p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV_{\text{調整後}} = 20 \times (1-0.26) - 3.33 = \text{11.47 億元}"><semantics><mrow><msub><mi mathvariant="normal">NPV</mi><mrow><mtext>調整後</mtext></mrow></msub><mo>=</mo><mn>20</mn><mo>×</mo><mo>(</mo><mn>1</mn><mo>−</mo><mn>0.26</mn><mo>)</mo><mo>−</mo><mn>3.33</mn><mo>=</mo><mtext>11.47 億元</mtext></mrow><annotation encoding="application/x-tex">NPV_{\text{調整後}} = 20 \times (1-0.26) - 3.33 = \text{11.47 億元}</annotation></semantics></math></span></p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="\Delta NPV = 16.67 - 11.47 = \text{5.20 億元}"><semantics><mrow><mi>Δ</mi><mi mathvariant="normal">NPV</mi><mo>=</mo><mn>16.67</mn><mo>−</mo><mn>11.47</mn><mo>=</mo><mtext>5.20 億元</mtext></mrow><annotation encoding="application/x-tex">\Delta NPV = 16.67 - 11.47 = \text{5.20 億元}</annotation></semantics></math></span></p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="\text{NPV 降幅} = \frac{5.20}{16.67} \times 100\% \approx \text{31.19\%}"><semantics><mrow><mtext>NPV 降幅</mtext><mo>=</mo><mfrac><mrow><mn>5.20</mn></mrow><mrow><mn>16.67</mn></mrow></mfrac><mo>×</mo><mn>100</mn><mo>%</mo><mo>≈</mo><mtext>31.19%</mtext></mrow><annotation encoding="application/x-tex">\text{NPV 降幅} = \frac{5.20}{16.67} \times 100\% \approx \text{31.19\%}</annotation></semantics></math></span></p>
+<p><strong>為什麼會有兩個降幅？</strong> 營運現金流的今天價值，從 20 億元降到 14.8 億元，少了 5.2 億元；用 5.2 除以原本的 20，得到 26%。</p>
+<p>收購 NPV 還要扣掉固定的 3.33 億元收購支出，所以從 16.67 億元降到 11.47 億元；同樣少了 5.2 億元，但用 16.67 作為比較起點，降幅就是 31.19%。比較起點不同，百分比也不同。這些降幅只適用本題假設。</p>
+<p>研究結果可以提供分析方向。評估個別企業時，還要查看它的產品、工廠位置、客戶與適用制度，再設定合適的計算條件。相關研究見<a class="internal-link" href="#e-climate-research">氣候曝險延伸閱讀</a>。</p>
+<h3 id="section-41">5.5 計算練習：比較不同情況</h3>
+<h4 id="npv-2">練習 5-1：碳風險調整後的 NPV</h4>
+<p>依 5.4 的條件，計算原估計 NPV、氣候情境調整後 NPV，以及兩者相差多少。再算出 NPV 的下降百分比，說明它為什麼與營運價值的 26% 降幅不同。答案見附錄 B。</p>
+<h3 id="section-42">5.6 本章小結</h3>
+<p>先辨識企業面對的成本與風險，再估算它們如何改變未來收付款。企業估值使用 FCFF 與 WACC 時，兩者的範圍要一致；已算進現金流的碳成本，在企業價值中計入一次。</p>
+<hr />
+<h2 id="toc-heading-7">第六章　永續財務長：把碳資料用在企業決策</h2>
+<p>前面幾章介紹了排放量、碳成本、投資與融資。本章要了解：企業裡的財務人員，如何把這些資訊用在日常工作？</p>
+<h3 id="section-44">6.1 學習目標</h3>
+<p>完成本章後，你可以：</p>
+<ol>
+<li>說明永續財務長的主要工作。</li>
+<li>用例子說明碳資料如何影響企業決策。</li>
+<li>認識財務、環境與其他部門如何合作。</li>
+<li>找出自己可以開始學習的能力。</li>
+</ol>
+<h3 id="section-45">6.2 永續財務長是做什麼的？</h3>
+<p>財務長（CFO）協助企業管理資金，例如決定投資哪些設備、如何籌錢，以及如何準備未來支出。</p>
+<p>當碳排放與氣候變化開始影響成本，財務長也需要把這些因素納入考量。本教材將這種工作角色稱為「永續財務長」（Green CFO）。</p>
+<p>例如，工廠提出一項減碳設備投資，財務長會和相關部門一起回答：</p>
+<ul>
+<li>設備要花多少錢？</li>
+<li>每年能省下多少能源費與碳費？</li>
+<li>公司要如何準備這筆資金？</li>
+<li>如果未來碳價改變，投資結果會如何？</li>
+</ul>
+<p>永續財務長的工作，就是把排放資料與企業的收支、投資和風險連起來。</p>
+<h3 id="section-46">6.3 五項主要工作</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>工作</th>
+<th>要回答的問題</th>
+<th>簡單例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>投資比較</td>
+<td>這筆錢值得花嗎？</td>
+<td>比較新舊設備的購買價格、能源費與碳成本。</td>
+</tr>
+<tr>
+<td>資金安排</td>
+<td>錢從哪裡來？</td>
+<td>比較一般借款與永續連結貸款的條件、費用。</td>
+</tr>
+<tr>
+<td>價值評估</td>
+<td>未來收支改變後，企業值多少？</td>
+<td>把未來碳成本放進企業估值。</td>
+</tr>
+<tr>
+<td>風險準備</td>
+<td>如果情況改變，公司承受得住嗎？</td>
+<td>試算碳價上升，或洪水造成停工的影響。</td>
+</tr>
+<tr>
+<td>資訊說明</td>
+<td>如何讓別人看懂企業的做法？</td>
+<td>說明排放資料、減碳投資、使用的假設與執行成果。</td>
+</tr>
+</tbody>
+</table></div>
+<p>這五項工作互相連接。例如，企業先比較設備，再安排資金，最後向管理階層說明選擇的理由。</p>
+<h3 id="section-47">6.4 用一個設備投資例子，串起整個工作</h3>
+<p>以下為教學情境。</p>
+<p>某工廠的舊設備耗電較多，公司考慮更換新設備。新設備可以省電，也能減少部分需要計費的排放，但購買時需要一大筆資金。</p>
+<p><strong>第一步：取得資料。</strong> 工程部門提供設備價格、耗電量、保養費與預計使用年限；環境或永續部門協助確認排放量與適用規定。</p>
+<p><strong>第二步：比較收支。</strong> 財務部門整理購買設備要付多少錢，以及每年能省下多少電費、碳費。再使用前面學過的 NPV，評估投資結果。</p>
+<p><strong>第三步：測試不同情況。</strong> 用幾組碳價與能源價格重新計算，看看哪些條件會改變投資選擇。</p>
+<p><strong>第四步：安排資金。</strong> 確認公司可以動用多少資金、是否需要借款，再比較利率、手續費及其他要求。</p>
+<p><strong>第五步：提出建議並追蹤。</strong> 向管理階層說明推薦方案、理由與風險。設備投入使用後，再比較實際節省與原先估算，作為下一次決策的參考。</p>
+<h3 id="section-48">6.5 需要哪些能力？如何與其他部門合作？</h3>
+<p>財務長需要看懂重要資料、提出問題，並協調各部門完成分析。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>能力</th>
+<th>要能做到什麼？</th>
+<th>常見合作對象</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>看懂排放資料</td>
+<td>知道計算範圍、資料來源與估算方式。</td>
+<td>環境、永續、工程部門</td>
+</tr>
+<tr>
+<td>計算財務影響</td>
+<td>整理收付款、比較投資，並測試不同假設。</td>
+<td>財務、會計、營運部門</td>
+</tr>
+<tr>
+<td>理解制度與合約</td>
+<td>確認適用要求、付款時間與責任分配。</td>
+<td>法務、合規、採購部門</td>
+</tr>
+<tr>
+<td>比較資金來源</td>
+<td>看懂借款條件及額外費用。</td>
+<td>銀行、財務團隊</td>
+</tr>
+<tr>
+<td>清楚說明結果</td>
+<td>交代資料、假設、方案與風險。</td>
+<td>管理階層、董事會、投資人</td>
+</tr>
+</tbody>
+</table></div>
+<p>例如，法務人員協助確認法規要求，工程人員估算設備效能，財務人員再把這些資訊整理成收支與投資比較。</p>
+<h3 id="section-49">6.6 從現在開始，可以怎麼學？</h3>
+<ol>
+<li><strong>先看懂基本收支。</strong> 分清楚收入、費用，以及實際收到或付出的現金。</li>
+<li><strong>再看懂排放資料。</strong> 了解排放來自哪些活動、用了什麼單位、資料涵蓋哪個期間。</li>
+<li><strong>練習比較方案。</strong> 選一項設備更新例子，計算支出、節省與 NPV。</li>
+<li><strong>練習改變假設。</strong> 調整碳價、電價或使用年限，觀察結果。</li>
+<li><strong>練習說明。</strong> 用一頁資料，讓同學看懂你的問題、計算、建議與限制。</li>
+</ol>
+<p>未來可以從財務、會計、工程、永續或風險管理等工作累積經驗，再逐步擴大跨部門合作的能力。</p>
+<h3 id="section-50">6.7 本章小結</h3>
+<p>永續財務長把碳排放與氣候資訊，轉成企業可以採取的行動。工作從確認資料開始，接著比較投資、安排資金、準備風險措施，並持續追蹤結果。</p>
+<hr />
+<h2 id="toc-heading-8">第七章　綜合應用：從排放資料到投資決定</h2>
+<p>前面幾章介紹了排放量、碳成本、投資計算、融資與氣候風險。本章用一個設備更新案例，把這些內容連起來。</p>
+<p>閱讀時，可以把自己想像成企業的財務人員：你需要整理哪些資料？怎麼計算？又該如何說明建議？</p>
+<h3 id="section-52">7.1 學習目標</h3>
+<ol>
+<li>找出計算企業碳成本所需的資料。</li>
+<li>比較設備更新前後的收支。</li>
+<li>用不同碳價測試投資結果。</li>
+<li>說明自己的建議、假設與需要確認的事項。</li>
+</ol>
+<h3 id="section-53">7.2 做決定前，先問五個問題</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>問題</th>
+<th>要整理的內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>排放從哪裡來？</td>
+<td>工廠、設備、用電與其他相關活動的資料。</td>
+</tr>
+<tr>
+<td>哪些排放要計費？</td>
+<td>適用制度、計費範圍、費率與扣除條件。</td>
+</tr>
+<tr>
+<td>買設備後會改變什麼？</td>
+<td>設備支出、能源費、保養費與碳成本。</td>
+</tr>
+<tr>
+<td>如果條件改變，結果會怎樣？</td>
+<td>碳價、能源價格、使用年限等不同假設。</td>
+</tr>
+<tr>
+<td>公司應如何行動？</td>
+<td>是否投資、如何安排資金，以及如何追蹤成果。</td>
+</tr>
+</tbody>
+</table></div>
+<p>這五個問題可以依序處理。資料還不完整時，先標示缺少的部分，再說明目前使用什麼假設。</p>
+<h3 id="section-54">7.3 綜合案例：工廠要不要更新設備？</h3>
+<p>以下數字均為教學假設，用來練習分析。真實企業的費率、扣除條件與投資效果，需要另外確認。</p>
+<h4 id="section-55">第一步：了解目前的碳費</h4>
+<p>假設某製造廠每年有 190,000 公噸排放納入本題計算，條件如下：</p>
+<ul>
+<li>未經認定為高碳洩漏風險事業。</li>
+<li>採每公噸新臺幣 300 元的一般費率。</li>
+<li>可扣除 25,000 公噸。</li>
+<li>沒有其他扣除、調整或減量額度。</li>
+</ul>
+<p>年度碳費為：</p>
+<p><strong>（190,000－25,000）× 300＝4,950 萬元。</strong></p>
+<p>這是目前每年需要支付的碳費，接下來比較換設備後會有什麼變化。</p>
+<h4 id="section-56">第二步：整理新設備的支出與效益</h4>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>本題假設</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>購買支出</td>
+<td>新臺幣 5 億元</td>
+</tr>
+<tr>
+<td>使用年限</td>
+<td>10 年</td>
+</tr>
+<tr>
+<td>每年減少的適用排放量</td>
+<td>30,000 公噸</td>
+</tr>
+<tr>
+<td>每年其他營運淨現金效益</td>
+<td>新臺幣 7,000 萬元</td>
+</tr>
+<tr>
+<td>折現率</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table></div>
+<p>「其他營運淨現金效益」可以理解為節能等收益，扣除相關新增營運支出後的金額；本題已將它整理為每年 7,000 萬元。</p>
+<p>為了先練習基本算法，本題假設費率維持不變，先不計所得稅、營運資金與設備最後出售的價值。每年的淨現金流都在年底發生。</p>
+<h4 id="section-57">第三步：算出每年能多留下多少現金</h4>
+<p>換設備後，適用排放量降為：</p>
+<p><strong>190,000－30,000＝160,000 公噸。</strong></p>
+<p>年度碳費變成：</p>
+<p><strong>（160,000－25,000）× 300＝4,050 萬元。</strong></p>
+<p>因此，每年少付的碳費為：</p>
+<p><strong>4,950－4,050＝900 萬元。</strong></p>
+<p>再加上其他營運淨現金效益：</p>
+<p><strong>7,000＋900＝7,900 萬元。</strong></p>
+<p>也就是說，相較於維持原狀，這項投資預計每年多帶來新臺幣 7,900 萬元淨現金流。</p>
+<h4 id="section-58">第四步：把十年的效益換算成今天的價值</h4>
+<p>現在要比較的是：今天先支付新臺幣 5 億元；未來十年，每年年底多取得新臺幣 7,900 萬元淨現金流。</p>
+<p>使用 10% 的折現率，十年的年金現值係數約為 6.1446。它可以幫我們一次算出十筆相同年度金額的今天價值。</p>
+<p>以下統一以「新臺幣萬元」計算：</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV = -50,000 + 7,900 \times 6.1446 = -1,457.66"><semantics><mrow><mi mathvariant="normal">NPV</mi><mo>=</mo><mo>−</mo><mn>50,000</mn><mo>+</mo><mn>7,900</mn><mo>×</mo><mn>6.1446</mn><mo>=</mo><mo>−</mo><mn>1,457.66</mn></mrow><annotation encoding="application/x-tex">NPV = -50,000 + 7,900 \times 6.1446 = -1,457.66</annotation></semantics></math></span></p>
+<p>NPV 約為負 1,458 萬元，表示在本題假設下，未來效益換算成今天的價值後，仍比期初投資少約 1,458 萬元，尚未達到 10% 的報酬要求。</p>
+<h4 id="section-59">第五步：試算較高碳價</h4>
+<p>設備會使用十年，企業可以再問：如果碳價提高，結果會如何？這次用每公噸新臺幣 500 元，取代原先的 300 元，其他條件維持不變。</p>
+<p>每年減少 30,000 公噸排放，可避免的碳成本為：</p>
+<p><strong>30,000 × 500＝1,500 萬元。</strong></p>
+<p>加上其他營運效益，每年合計：</p>
+<p><strong>7,000＋1,500＝8,500 萬元。</strong></p>
+<p>以下仍以「新臺幣萬元」計算：</p>
+<p><span class="equation" tabindex="0" role="region" aria-label="數學公式，可左右滑動"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="NPV = -50,000 + 8,500 \times 6.1446 = 2,229.10"><semantics><mrow><mi mathvariant="normal">NPV</mi><mo>=</mo><mo>−</mo><mn>50,000</mn><mo>+</mo><mn>8,500</mn><mo>×</mo><mn>6.1446</mn><mo>=</mo><mn>2,229.10</mn></mrow><annotation encoding="application/x-tex">NPV = -50,000 + 8,500 \times 6.1446 = 2,229.10</annotation></semantics></math></span></p>
+<p>在每公噸 500 元的假設下，NPV 變成正值。同一項設備投資，可能因碳價假設不同而得到不同結果。每公噸 500 元是本次內部試算價格，實際付款仍依適用制度計算。</p>
+<h3 id="section-60">7.4 如何把計算結果變成建議？</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>碳價假設</th>
+<th style="text-align: right;">NPV（新臺幣萬元）</th>
+<th>本題結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>每公噸新臺幣 300 元</td>
+<td style="text-align: right;">約 −1,458</td>
+<td>尚未達到設定的報酬要求</td>
+</tr>
+<tr>
+<td>每公噸新臺幣 500 元</td>
+<td style="text-align: right;">約 2,229</td>
+<td>可達到設定的報酬要求</td>
+</tr>
+</tbody>
+</table></div>
+<p>財務人員可以這樣說明：</p>
+<blockquote>
+<p>這項設備每年可以節省碳費，並帶來其他營運效益。在每公噸新臺幣 300 元的條件下，投資尚未達到本題設定的報酬要求；若用每公噸新臺幣 500 元試算，結果則轉為正值。因此，碳價是值得持續追蹤的重要條件。</p>
+</blockquote>
+<p>接著，再確認幾件事：</p>
+<ul>
+<li>設備能否穩定達到預期節能與減排效果？</li>
+<li>安裝期間是否需要停工？相關費用是否已計入？</li>
+<li>公司能否準備所需資金？借款條件如何？</li>
+<li>是否有其他設備或分階段投資方案可以比較？</li>
+<li>是否有必須遵守的法律或客戶要求？</li>
+</ul>
+<p>最後的建議應包含計算結果、實際限制與下一步行動。</p>
+<h3 id="section-61">7.5 未來需要持續更新哪些資料？</h3>
+<p>投資計算使用的是當時掌握的資料。之後條件改變，就需要重新檢查。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>持續追蹤的資料</th>
+<th>為什麼需要更新？</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>適用法規與費率</td>
+<td>可能改變計費範圍、金額與付款時間。</td>
+</tr>
+<tr>
+<td>客戶與出口市場要求</td>
+<td>可能影響需要準備的資料、產品銷售與合約責任。</td>
+</tr>
+<tr>
+<td>設備成本與實際效能</td>
+<td>新技術、維修費與使用情況會影響投資效益。</td>
+</tr>
+<tr>
+<td>能源價格</td>
+<td>電價與燃料價格會影響每年節省。</td>
+</tr>
+<tr>
+<td>融資條件</td>
+<td>利率、費用與合約要求會影響資金安排。</td>
+</tr>
+<tr>
+<td>排放資料品質</td>
+<td>資料更完整時，可以改善原先的估算。</td>
+</tr>
+</tbody>
+</table></div>
+<p>AI 可以協助整理文件、比對資料或製作試算，但使用者仍需要確認來源、單位、計算範圍與結果。</p>
+<h3 id="section-62">7.6 自己試一次</h3>
+<p>沿用本章案例，選一項條件改變後重新計算：</p>
+<ol>
+<li>設備價格降低，NPV 會如何改變？</li>
+<li>每年減少的排放量比預期少，結果會如何？</li>
+<li>每年營運效益降低，投資是否仍能達到報酬要求？</li>
+</ol>
+<p>完成後，用一頁資料說明：你改變了什麼條件？結果改變多少？你的建議是什麼？還有哪些資料需要確認？</p>
+<h3 id="section-63">7.7 本章小結</h3>
+<p>企業先從排放資料確認適用成本，再比較投資帶來的收支變化。透過不同條件的試算，可以找出哪些因素最影響結果。</p>
+<p>把資料、假設與計算說清楚，就能讓管理階層與其他部門一起討論，做出有依據的決定。</p>
+<hr />
+<h2 id="toc-heading-9">附錄 A　關鍵術語</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th>術語</th>
+<th>英文</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>碳費</td>
+<td>Carbon Fee</td>
+<td>政府依法對適用排放收取的費用</td>
+</tr>
+<tr>
+<td>淨現值</td>
+<td>Net Present Value, NPV</td>
+<td>把投資各年的增額淨現金流換算成今天價值，再扣除期初投資</td>
+</tr>
+<tr>
+<td>折現</td>
+<td>Discounting</td>
+<td>依折現率，把未來的錢換算成今天的價值</td>
+</tr>
+<tr>
+<td>加權平均資金成本</td>
+<td>Weighted Average Cost of Capital, WACC</td>
+<td>依資金占比，平均計算企業向股東與債權人取得資金的成本</td>
+</tr>
+<tr>
+<td>企業自由現金流</td>
+<td>Free Cash Flow to the Firm, FCFF</td>
+<td>營運並完成必要投資後，可提供給股東與債權人的現金流</td>
+</tr>
+<tr>
+<td>折現現金流量法</td>
+<td>Discounted Cash Flow, DCF</td>
+<td>把未來現金流換算成今天價值的估值方法</td>
+</tr>
+<tr>
+<td>關鍵績效指標</td>
+<td>Key Performance Indicator, KPI</td>
+<td>用來追蹤重要表現的指標，例如每單位產品排放量</td>
+</tr>
+<tr>
+<td>永續績效目標</td>
+<td>Sustainability Performance Target, SPT</td>
+<td>KPI 應在指定期限達到的表現</td>
+</tr>
+<tr>
+<td>基點</td>
+<td>Basis point, bps</td>
+<td>利率變動單位；1 基點等於 0.01 個百分點</td>
+</tr>
+<tr>
+<td>碳稅</td>
+<td>Carbon Tax</td>
+<td>對碳排放課徵的稅收</td>
+</tr>
+<tr>
+<td>碳排放交易體系</td>
+<td>Emissions Trading System (ETS)</td>
+<td>總量管制與排放交易機制</td>
+</tr>
+<tr>
+<td>碳邊境調整機制</td>
+<td>Carbon Border Adjustment Mechanism (CBAM)</td>
+<td>對進口產品徵收碳成本的機制</td>
+</tr>
+<tr>
+<td>範疇一</td>
+<td>Scope 1</td>
+<td>企業直接排放</td>
+</tr>
+<tr>
+<td>範疇二</td>
+<td>Scope 2</td>
+<td>能源間接排放</td>
+</tr>
+<tr>
+<td>範疇三</td>
+<td>Scope 3</td>
+<td>價值鏈其他間接排放</td>
+</tr>
+<tr>
+<td>內部碳定價</td>
+<td>Internal Carbon Pricing (ICP)</td>
+<td>企業內部使用的碳價格管理工具，包括影子價格及內部碳費等</td>
+</tr>
+<tr>
+<td>永續連結貸款</td>
+<td>Sustainability-Linked Loan (SLL)</td>
+<td>條件與永續 KPI 掛鉤的貸款</td>
+</tr>
+<tr>
+<td>綠色債券</td>
+<td>Green Bond</td>
+<td>資金專用於綠色項目的債券</td>
+</tr>
+<tr>
+<td>未來碳成本曝險</td>
+<td>Future carbon cost exposure</td>
+<td>企業在不同情境下，未來可能承擔的碳成本；會計分類另依準則判斷</td>
+</tr>
+<tr>
+<td>擱淺資產</td>
+<td>Stranded Assets</td>
+<td>因政策或市場變化而提前失去價值的資產（如燃煤電廠、高碳設備）</td>
+</tr>
+<tr>
+<td>綠色溢價</td>
+<td>Greenium</td>
+<td>可比條件下，綠色債券呈現的價格溢價或殖利率折讓</td>
+</tr>
+<tr>
+<td>產品碳足跡</td>
+<td>Product Carbon Footprint (PCF)</td>
+<td>產品生命週期內的溫室氣體排放總量</td>
+</tr>
+<tr>
+<td>TCFD（延伸詞彙）</td>
+<td>Task Force on Climate-related Financial Disclosures</td>
+<td>氣候相關財務揭露工作小組提出的建議架構，後續 ISSB 準則承接相關架構</td>
+</tr>
+<tr>
+<td>科學基礎減量目標倡議</td>
+<td>Science Based Targets initiative (SBTi)</td>
+<td>協助企業設定與《巴黎協定》一致的減量目標</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="toc-heading-10">附錄 B　計算練習核對答案</h2>
+<h3 id="section-64">練習 1-1：碳費</h3>
+<p>假設單一適用製造廠的法定計費基礎排放為 50,000 噸，不是高碳洩漏風險事業、一般費率 300 元、扣除 25,000 噸，且沒有其他扣除或額度。</p>
+<ul>
+<li>原年度碳費 = (50,000 − 25,000) × 300 = <strong>750 萬元</strong>。</li>
+<li>排放減少 10% 至 45,000 噸，碳費 = (45,000 − 25,000) × 300 = <strong>600 萬元</strong>。</li>
+<li>節省 <strong>150 萬元</strong>。本案例採一般費率與指定扣除條件；個別工廠的結果依其適用條件計算。</li>
+</ul>
+<h3 id="npv-3">例題 3-1 與練習 3-2：NPV 敏感性分析</h3>
+<p>沿用正文所有假設及同一計算式，單位為新臺幣萬元；數值取至小數一位。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教材表格，可左右滑動"><table>
+<thead>
+<tr>
+<th style="text-align: right;">碳價（元／噸）</th>
+<th style="text-align: right;">A 的 NPV（萬元）</th>
+<th style="text-align: right;">B 的 NPV（萬元）</th>
+<th style="text-align: right;">A − B（萬元）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4,216.9</td>
+<td style="text-align: right;">4,602.4</td>
+<td style="text-align: right;">-385.5</td>
+</tr>
+<tr>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">3,909.7</td>
+<td style="text-align: right;">3,988.0</td>
+<td style="text-align: right;">-78.3</td>
+</tr>
+<tr>
+<td style="text-align: right;">1,000</td>
+<td style="text-align: right;">3,602.4</td>
+<td style="text-align: right;">3,373.5</td>
+<td style="text-align: right;">228.9</td>
+</tr>
+<tr>
+<td style="text-align: right;">2,000</td>
+<td style="text-align: right;">2,988.0</td>
+<td style="text-align: right;">2,144.6</td>
+<td style="text-align: right;">843.4</td>
+</tr>
+<tr>
+<td style="text-align: right;">3,000</td>
+<td style="text-align: right;">2,373.5</td>
+<td style="text-align: right;">915.7</td>
+<td style="text-align: right;">1,457.8</td>
+</tr>
+</tbody>
+</table></div>
+<p>原條件的臨界碳價約為每公噸 <strong>627 元</strong>。練習 3-2 中，A 的價格提高為 5,500 萬元，碳價為零時 A 的 NPV 為 3,716.9 萬元，B 為 4,602.4 萬元；新的交叉點約為每公噸 1,441.2 元。A 的購買價格提高後，需要更高的碳價，才會在本題中比 B 有利。</p>
+<h3 id="section-65">練習 3-3：影子碳價</h3>
+<p>依正文採用的年金現值係數 3.7908：碳成本前 NPV 為 1,372.40 萬元；以每噸 500 元計為 993.32 萬元；以 1,000 元計為 614.24 萬元。本題每年 3,000 萬元為扣除其他營運成本後、尚未計入碳成本的增額淨現金流。</p>
+<h3 id="section-66">練習 4-1 與 4-2：利息</h3>
+<p>4-1：每年 50 萬美元，十年未折現 500 萬美元。4-2：假設全部五年均適用降息且本金不變，每年 50 萬美元，五年未折現 250 萬美元。實際要按生效日、本金與增額成本調整。</p>
+<h3 id="npv-4">練習 5-1：情境 NPV</h3>
+<p>營運現金流現值：20 億降為 14.8 億，降幅 26%。扣除 3.33 億收購支出後，NPV 由 16.67 億降為 <strong>11.47 億</strong>；差額 <strong>5.20 億</strong>；NPV 下降 <strong>31.19%</strong>。上述降幅適用於本題的現金流與收購支出假設。</p>
+<hr />
+<h2 id="toc-heading-11">附錄 C　參考資料</h2>
+<p>以下來源涵蓋碳定價制度、盤查標準、金融市場資料與學術研究，可供延伸閱讀及查詢原始規定。閱讀時可結合資料年度、研究樣本與適用範圍，理解各項資訊的用途。</p>
+<ol>
+<li>世界銀行：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing">State and Trends of Carbon Pricing 2026</a>。</li>
+<li>氣候變遷署：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cca.gov.tw/affairs/carbon-fee-fund/2301.html">碳費專區：計算、門檻與額度</a>。</li>
+<li>環境部：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://enews.moenv.gov.tw/moenv-news/zh-tw/News/14034">2026-09-01 碳費相關辦法修正說明</a>。</li>
+<li>歐盟委員會：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en">CBAM 制度與涵蓋貨品</a>。</li>
+<li>歐盟委員會：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://taxation-customs.ec.europa.eu/news/first-cbam-certificate-price-be-published-7-april-2026-03-06_en?prefLang=el">2026 成本與 2027 購證時程</a>。</li>
+<li>歐盟委員會：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://customs-taxation.learning.europa.eu/pluginfile.php/70425/mod_resource/content/1/Webinar%20takeaways%20-%20CBAM%20has%20launched%20-%20What%20changes%20for%20me.pdf">2026 CBAM 官方計算說明</a>。</li>
+<li>歐盟法規：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://eur-lex.europa.eu/eli/reg/2023/1542/2025-07-31/eng/pdf">電池法規合併文本，第 7、13、77 條</a>。</li>
+<li>ISO：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.iso.org/standard/66453.html">ISO 14064-1:2018</a>。</li>
+<li>ISO：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.iso.org/standard/71206.html">ISO 14067:2018</a>。</li>
+<li>GHG Protocol：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://ghgprotocol.org/sites/default/files/standards/Scope3_Calculation_Guidance_0.pdf">Technical Guidance for Calculating Scope 3 Emissions（2013）</a>。</li>
+<li>WBCSD／BCG：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.wbcsd.org/news/integrating-climate-with-financials-internal-carbon-pricing/">Integrating climate with financials: Internal Carbon Pricing（2025）</a>。</li>
+<li>Climate Bonds：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.climatebonds.net/news-events/press-room/press-releases/sustainable-debt-market-nears-usd7-trillion-aligned-issuance-demonstrating-strong-global-momentum">2025 市場資料（2026-03 發布）</a>。</li>
+<li>Baker 等人：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.annualreviews.org/content/journals/10.1146/annurev-financial-111620-014802">The Pricing and Ownership of US Green Bonds（2022）</a>。</li>
+<li>LMA／APLMA／LSTA：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.lma.eu.com/application/files/2317/4481/8026/Sustainability-Linked_Loan_Principles_-_26_March_2025_.pdf">Sustainability-Linked Loan Principles（2025）</a>。</li>
+<li>IFRS Foundation：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/">IAS 37</a>。</li>
+<li>IFRS Foundation：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/issued-standards/list-of-standards/ifric-21-levies/">IFRIC 21</a>。</li>
+<li>IFRS Foundation：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/news-and-events/news/2025/06/ifrs-foundation-publishes-jurisdictional-profiles-issb-standards/?_hsmi=111301052">管轄區導入進展（2025-06）</a>。</li>
+<li>IFRS Foundation：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/content/dam/ifrs/publications/pdf-standards-issb/english/2023/issued/part-a/issb-2023-a-ifrs-s2-climate-related-disclosures.pdf?bypass=on">IFRS S2（2023）</a>。</li>
+<li>Döbbeling-Hildebrandt 等人：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s41467-024-48512-w">公共碳定價事後評估綜合分析（2024）</a>。</li>
+<li>Stenzel、Waichman：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s44168-023-00032-x">Supply-chain data sharing for scope 3 emissions（2023）</a>。</li>
+<li>Nguyen 等人：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000208">Scope 3 emissions: Data quality and machine learning prediction accuracy（2023）</a>。</li>
+<li>Sautner 等人：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://onlinelibrary.wiley.com/doi/10.1111/jofi.13219">Firm-Level Climate Change Exposure（2023）</a>。</li>
+<li>英國政府：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism">UK CBAM 實施說明</a>。</li>
+</ol>
+<p><strong>進一步閱讀：企業內部碳價、氣候風險與供應鏈管理</strong></p>
+<ul>
+<li>Chen、Shan 與 Zhang：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.bar.2025.101776">Is internal carbon pricing an agent of change in the green transition?</a>（2026）。</li>
+<li>Peng 與 Gao：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s13132-025-02789-4">Fortune or Misfortune? Climate Risk and Corporate ESG Performance</a>（2025 年線上發表；2026 年卷期）。</li>
+<li>El Khiam 與 Litos：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.clman.2026.100006">Industry perspectives on scope 3 emissions reduction in manufacturing</a>（2026）。</li>
+</ul>
+<p>英國政府：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://assets.publishing.service.gov.uk/media/5f3fd8e1e90e0752a293b8a0/UK_Business_Competitiveness_and_the_Role_of_Carbon_Pricing_report.pdf">UK Business Competitiveness and the Role of Carbon Pricing（2020）</a>。</p>
+<p>GHG Protocol：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf">企業標準（2004 修訂版）</a>。ISO：<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.iso.org/standard/66455.html">ISO 14064-3 查驗原則與要求</a>。企業估值可參考 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation">CFA Institute 的自由現金流估值說明</a>。</p>
+<p>實際使用教材計算企業成本時，請查閱當時有效的法規。境外減量額度能否使用、各類電池何時適用特定要求等事項，都要依主管機關認可與最新配套規定確認。</p>
+<hr />
+<h2 id="toc-heading-12">附錄 D　學習評量參考</h2>
+<h3 id="section-67">概念確認題</h3>
+<ol>
+<li>臺灣何年度排放開始納入計費、何年首次繳納？答：2025 年排放，2026 年首次繳納。</li>
+<li>外購電力屬哪一範疇？答：依 GHG Protocol 為範疇二。</li>
+<li>影子碳價是否必然造成現金支付？答：否，須與實際對外碳成本區分。</li>
+<li>綠色債券的年度發行量與累計發行量有什麼差別？答：前者計算當年新增發行，後者計算歷年累積發行；比較時也要確認債券分類一致。</li>
+<li>CBAM 正式制度與購證分別何時開始？答：2026 年適用正式制度；2027 年 2 月起售證。</li>
+<li>一般半導體產品是否自動適用現行 CBAM？答：否，須按附件貨品代碼判定。</li>
+</ol>
+<h3 id="section-68">問答題</h3>
+<ol>
+<li>臺灣碳費為何不能用企業含範疇三總排放直接乘以 300 元？</li>
+<li>如何避免外部碳費、ICP 與 CBAM 在投資評估中重複計算？</li>
+<li>為什麼企業營運價值與收購 NPV 少了相同金額，下降百分比卻不同？</li>
+<li>觀察到 ESG 評分較高的企業，資金成本較低時，還要考慮哪些其他原因？</li>
+<li>永續連結貸款需要安排哪五項重點？利率何時調整、調多少，應查看哪份文件？</li>
+<li>請用例題 3-1 的輸入自行重算表格與交叉點，並說明改變排放量的影響。</li>
+</ol>
+<h3 id="section-69">案例分析</h3>
+<p>選一家上市公司，先查它公布的排放資料，再找出可能適用的制度。整理目前已支付的碳成本，並選一組未來碳價做試算。寫下資料來源、缺少的資料與計算步驟，讓同學可以跟著重算。最後分別標示：公司已公布的事實、你設定的假設，以及還需要確認的資料。</p>
+<hr />
+<h2 id="appendix-e">附錄 E　法規與研究延伸閱讀</h2>
+<h3 id="e.1">E.1 制度與出口</h3>
+<div id="e-batteries"></div>
+<h4 id="section-70">電池碳足跡與歐盟規定</h4>
+<p><strong>歐盟《電池法規》：產品類別與適用時程</strong></p>
+<p>歐盟電池法規包含幾種不同要求：碳足跡聲明用來報告排放，績效分級用來區分表現，QR code 與電池護照則提供相關資訊。各項要求依電池類別分別安排時程。</p>
+<p>確認開始適用的日期時，可分兩步看：先找法規列出的日期，再找相關配套法案生效後、經過指定期間的日期。部分要求採這兩個日期中較晚的日期。</p>
+<p>法規第 7 條規範碳足跡等要求，第 13、77 條另規範 QR code 與特定電池護照。整部法規於 2023 年生效，通則自 2024 年 2 月適用；不同電池與要求另有時程。</p>
+<p>ISO 14067 報告可提供產品碳足跡資料；企業仍須依產品類別、條文及相關配套法案，逐項確認歐盟合規要求。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://eur-lex.europa.eu/eli/reg/2023/1542/2025-07-31/eng/pdf">電池法規合併文本（2025 年 7 月 31 日），第 7、13、77 條</a>；<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://eur-lex.europa.eu/eli/reg/2023/1542/ojn">最新合併法規入口</a>；<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en">歐盟委員會電池專頁</a>。</p>
+<div id="e-cbam"></div>
+<h4 id="cbam-1">CBAM 試算補充</h4>
+<p>歐盟正式制度自 2026 年適用；英國官方資料載明其 CBAM 自 2027 年 1 月開始，範圍與運作方式應另外判斷。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism">英國官方說明</a>。其他經濟體的制度進度，可依研究、諮詢、立法與生效等階段分別追蹤。</p>
+<p>出口企業可以先做一張清單，列出賣到哪裡、產品代碼是什麼，以及合約約定誰負責哪些事項。一般半導體產品是否受到直接管制，依現行附件代碼判定；客戶提出的供應鏈要求，則另外整理。</p>
+<p><strong>CBAM 另外算。</strong> 假設出口 50,000 噸納管鋼鐵產品，每噸產品的相關生產排放為 2 噸，再先用每噸排放 80 歐元試算：50,000 × 2 × 80＝800 萬歐元。</p>
+<p>這只是尚未依制度調整的起算數字。接著要確認計入哪些排放、免費配額如何調整、生產地已支付的碳價能否扣抵，以及合約約定臺灣供應商負擔多少。這個例子單獨練習 CBAM 的起算方式。第七章設備案例的節省，只採該章列出的營運與國內碳費效益。</p>
+<p><strong>半導體對照：</strong> 一般半導體產品不在目前 CBAM 六大類納管貨品中，其購證義務依附件貨品代碼判定。其國內碳費、客戶要求或未來政策情境，仍可分開分析。</p>
+<div id="e-disclosure"></div>
+<h4 id="section-71">永續揭露準則的採用進展</h4>
+<p>IFRS S1/S2 發布於 2023 年，準則本身適用於 2024 年起的年度期間，但各地是否強制、涵蓋哪些公司及如何過渡，取決於主管機關。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/news-and-events/news/2025/06/ifrs-foundation-publishes-jurisdictional-profiles-issb-standards/?_hsmi=111301052">IFRS Foundation 於 2025 年 6 月的資料</a>列出 36 個已採用、使用或正在完成導入步驟的國家或地區；各地的強制範圍與導入階段仍有差異。</p>
+<p>企業準備報告時，可以逐項確認：所在地要求什麼？哪些資訊會影響投資人判斷？報告包括哪些公司與活動？導入初期有哪些暫時放寬措施？</p>
+<p>接著安排誰收資料、誰檢查、資料保存在哪裡。這些固定的檢查流程，就是內部控制的一部分。</p>
+<p>ISSB 在 2025 年 12 月發布 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/news-and-events/news/2025/12/issb-issues-targeted-amendments-ifrs-s2/">S2 溫室氣體揭露的部分修正</a>，自 2027 年起的年度期間生效，也允許提前使用。內容包括投融資排放的範圍、分類與部分衡量規定。企業準備報告時，要確認使用哪個版本，以及所在地如何導入。</p>
+<div id="e-scope3"></div>
+<h3 id="e.2">E.2 排放資料與範疇三</h3>
+<p>公司通常較容易取得自己的燃料與電費資料，供應商資料則需要合作取得。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s44168-023-00032-x">Stenzel 與 Waichman（2023）</a>回顧上游供應鏈的資料分享，整理出法律與契約、系統互通及商業資料保護三類障礙。這份研究提出合作方向，沒有直接估計分享資料能讓每家公司減排多少。</p>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000208">Nguyen 等人（2023）</a>比較不同資料庫，發現同一家公司的範疇三數字也可能不同，部分排放類別則尚未完整報告。研究測試多種估算模型後發現，較好的模型仍可能有較大誤差。因此，企業使用估算時，要交代活動範圍、資料來源與誤差，並逐步補足實際紀錄。</p>
+<h3 id="e.3">E.3 投資與融資</h3>
+<div id="e-public-pricing"></div>
+<h4 id="section-72">公共碳定價的研究證據</h4>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s41467-024-48512-w">Döbbeling-Hildebrandt 等人（2024）</a>整理 80 項實施後評估，涵蓋 21 項公共碳稅與總量交易制度。研究支持其中至少 17 項制度有顯著減排效果，也檢查了研究品質與發表偏差。它主要回答「開始實施制度後，排放是否改變」，並未提供所有企業適用的最佳內部碳價。</p>
+<p>碳定價對競爭力的影響，也與能源成本、客戶需求、免費配額與企業改善能力有關。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://assets.publishing.service.gov.uk/media/5f3fd8e1e90e0752a293b8a0/UK_Business_Competitiveness_and_the_Role_of_Carbon_Pricing_report.pdf">英國政府 2020 年證據回顧，第 2.2.2 節與附錄 A、B</a>整理的早期 EU ETS 證據，多未發現明顯碳洩漏。這是當時制度與研究期間的結果；評估未來較高碳價時，仍要另作分析。</p>
+<div id="e-green-bonds"></div>
+<h4 id="section-73">綠色債券的研究證據</h4>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.annualreviews.org/content/journals/10.1146/annurev-financial-111620-014802">Baker 等人（2022）</a>回顧美國綠色債券市場，主要實證來自 2013–2018 年的地方政府債券。控制發行人與債券條件後，研究觀察到小幅殖利率差；同日搭配發行的綠債與一般債，在發行時通常沒有這項差異，之後的市場交易才出現差別。</p>
+<p>這說明市場與發行方式會影響結果。企業試算利息節省時，可用幾組假設比較，並納入外部評估與報告費用。</p>
+<div id="e-sll"></div>
+<h4 id="section-74">永續連結貸款的協會與浮動利率</h4>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.lma.eu.com/application/files/2317/4481/8026/Sustainability-Linked_Loan_Principles_-_26_March_2025_.pdf">《永續連結貸款原則》</a>由三個貸款市場協會共同發布：LMA（貸款市場協會，主要涵蓋歐洲、中東及非洲）、APLMA（亞太貸款市場協會）、LSTA（貸款交易與銀團貸款協會，主要服務美國市場）。這是市場指引，具體貸款條件依合約約定。</p>
+<p>SOFR 是美元市場常用的參考利率。合約若寫「SOFR＋150 bps」，表示在 SOFR 上加 1.50 個百分點。第四章例題只計算達標降息帶來的差額，完整利率與生效時間仍以合約為準。</p>
+<h3 id="e.4">E.4 企業估值與會計</h3>
+<div id="e-valuation"></div>
+<h4 id="section-75">估值時，現金流與折現率如何配合？</h4>
+<p>企業自由現金流（FCFF）提供給股東與債權人，因此搭配 WACC。正式計算 WACC 時，通常依股權與債務的市場價值決定占比，並處理適用的借款節稅效果。若要取得股權價值，再依估值範圍調整債務、現金與其他資產。<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation">CFA Institute 的自由現金流估值說明</a></p>
+<div id="e-climate-research"></div>
+<h4 id="section-76">氣候曝險研究在衡量什麼？</h4>
+<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="https://onlinelibrary.wiley.com/doi/10.1111/jofi.13219">Sautner 等人（2023）</a>分析 2002–2020 年企業財報電話會議的文字，涵蓋 34 國逾一萬家企業。研究建立的指標，衡量管理階層與分析師談論氣候機會、政策與實體影響的程度。</p>
+<p>這是對氣候議題關注程度的衡量，並非直接算出工廠損失或企業價值。研究觀察到指標與綠色職缺、專利及市場價格的關係。分析個別企業時，還要結合產品、工廠位置、排放與現金流資料。</p>
+<div id="e-accounting"></div>
+<h4 id="section-77">預算與會計負債的差別</h4>
+<p>預算是在規劃未來的收支；財報則依會計規定，記錄當時應呈現的財務情況。</p>
+<p>企業未來可能承擔的碳成本，可以先作為管理與預算資訊；會計上的負債則有明確認列條件。</p>
+<p>例如，公司預估五年後還要付碳費，可以先列入未來預算；是否現在就要把它記成負債，要另外依會計規定判斷。</p>
+<p>「認列」是依規定把項目記入財務報表；「負債準備」是付款時間或金額仍不確定、且符合規定的負債。IAS 37 是處理這類項目的會計準則。單純預估未來營運會有支出，尚不足以認列負債準備。IFRIC 21 則說明政府徵費的負債認列，要看法律規定的活動在何時發生。 <a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/">IAS 37</a>；<a class="source-link" target="_blank" rel="noopener noreferrer" href="https://www.ifrs.org/issued-standards/list-of-standards/ifric-21-levies/">IFRIC 21</a></p>
+<hr />
+<p>版權聲明：本教材僅供學術教學用途。引用資料之權利歸原權利人；教學假設不代表市場預測，實際決策應依最新法規與專業判斷。</p>
+</article></div><footer>Green CFO 學習室 · 黃柏凱 (運用人工智慧工具彙整)</footer><script>const headerElement=document.querySelector('header');function updateHeaderHeight(){document.documentElement.style.setProperty('--header-height',headerElement.getBoundingClientRect().height+'px')}new ResizeObserver(updateHeaderHeight).observe(headerElement);updateHeaderHeight();const tocPanel=document.getElementById('toc-panel');const compactLayout=matchMedia('(max-width:1024px)');function updateToc(){tocPanel.open=!compactLayout.matches}compactLayout.addEventListener('change',updateToc);updateToc();document.querySelectorAll('.toc-links a').forEach(a=>a.addEventListener('click',()=>{if(compactLayout.matches)tocPanel.open=false}));let size=parseFloat(getComputedStyle(document.querySelector('article')).fontSize);function changeSize(v){size=Math.max(14,Math.min(24,size+v));document.querySelector('article').style.fontSize=size+'px'}window.addEventListener('scroll',()=>{const d=document.documentElement;let p=Math.round(100*d.scrollTop/(d.scrollHeight-d.clientHeight));document.getElementById('progress').style.width=p+'%';document.getElementById('status').textContent='閱讀進度 '+p+'%'});</script></html>
